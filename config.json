@@ -13,5 +13,8 @@
   },
   "county":{
     "base": "http://www.stats.gov.cn/tjsj/tjbz/xzqhdm/"
+  },
+  "jobName":{
+    "base": "https://sou.zhaopin.com/"
   }
 }
