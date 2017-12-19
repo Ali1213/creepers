@@ -1,0 +1,17 @@
+{
+  "mongodb": "localhost:27017",
+  "country": "中国",
+  "attentionRankName": "全国热度",
+  "collegesUrl":"https://data-gkcx.eol.cn/soudaxue/queryschool.html?messtype=jsonp&callback=jQuery18305637706917546421_1513163425175&province=&schooltype=&page=1&size=30&keyWord1=&schoolprop=&schoolflag=&schoolsort=&schoolid=&_=1513163428667",
+  "majorsUrl":"http://gkcx.eol.cn/schoolhtm/specialty/specialtyList/specialty31.htm",
+  "domain": "http://gkcx.eol.cn",
+  "dbname":"test",
+  "Majors":"https://data-gkcx.eol.cn/soudaxue/queryspecialty.html?messtype=jsonp&callback=jQuery18301752210637751146_1513329154990&zycengci=&zytype=&keyWord2=&page=1&size=30&_=1513329159521",
+  "MajorRelationSchool":"https://data-gkcx.eol.cn/soudaxue/querySchoolSpecialty.html?messtype=jsonp&callback=jQuery18302179994011208812_1513332456419&province=&schooltype=&page=1&size=100&keyWord1=哲学&schoolprop=&zycengci=&_=1513332457982",
+  "getIP":{
+
+  },
+  "county":{
+    "base": "http://www.stats.gov.cn/tjsj/tjbz/xzqhdm/"
+  }
+}

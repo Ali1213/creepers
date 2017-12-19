@@ -1,0 +1,20 @@
+{
+  "name": "craw-college-major",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "cheerio": "^1.0.0-rc.2",
+    "mongodb": "^3.0.0-rc0",
+    "mongoose": "^4.13.7",
+    "superagent": "^3.8.2",
+    "superagent-jsonp": "^0.2.0",
+    "tiny-jsonp": "^1.0.4"
+  }
+}
