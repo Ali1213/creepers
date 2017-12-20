@@ -18,6 +18,10 @@ const requestHTML = function(remoteUrl){
   });
 }
 
+const requestHttpsHTML = function(){
+
+}
+
 
 const sleep = function(milliseconds = 2000){
   return new Promise(rs =>{
