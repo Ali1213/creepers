@@ -90,9 +90,9 @@ const convertTextToWriteToDB = async function(){
     }
     let words = item.trim().split(/\s+/);
     return {
-      classTitle: words[0],
-      catergoryTitle: words[1],
-      jobTitle: words[2],
+      class: words[0],
+      catergory: words[1],
+      title: words[2],
     }
   });
   return data;

@@ -16,5 +16,9 @@
   },
   "jobTitle":{
     "base": "https://sou.zhaopin.com/"
+  },
+  "kanzhun":{
+    "base": "http://m.kanzhun.com/plc70p1/",
+    "more": "http://m.kanzhun.com/search/gs/more.json?cityCode=&industryCode=126&sortType=&tagId=0&q=&page=2"
   }
 }

@@ -44,6 +44,21 @@ const insertToDB = function(collegeName,doc){
   })
 }
 
+const hasInDB = function(collectionName,condition){
+  return createDB().then(db=>{
+    return new Promise( rs => {
+      db.collection(collectionName).findOne(condition,(err,result)=>{
+        if(err){
+          // console.log('insertError',err);
+          // console.log(college);
+          return rs(false);
+        }
+        // console.log("insertDB")
+        rs(result ? true:false)
+      })
+    });
+  });
+}
 
 
 
@@ -51,4 +66,5 @@ module.exports = {
   sleep,
   requestHTML,
   insertToDB,
+  hasInDB,
 }
