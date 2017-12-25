@@ -60,6 +60,69 @@ const hasInDB = function(collectionName,condition){
   });
 }
 
+const findOneDB = function(collectionName,condition,options={}){
+  return createDB().then(db=>{
+    return new Promise( rs => {
+      db.collection(collectionName).findOne(condition,options,(err,result)=>{
+        if(err){
+          // console.log('insertError',err);
+          // console.log(college);
+          return rs(err);
+        }
+        // console.log("insertDB")
+        rs(result)
+      })
+    });
+  });
+}
+
+const findOneAndUpdateDB = function(collectionName,filter,update,options={}){
+  return createDB().then(db=>{
+    return new Promise( rs => {
+      db.collection(collectionName).findOneAndUpdate(filter,update,options,(err,result)=>{
+        if(err){
+          // console.log('insertError',err);
+          // console.log(college);
+          return rs(err);
+        }
+        // console.log("insertDB")
+        rs(result)
+      })
+    });
+  });
+}
+
+const updateOneDB = function(collectionName,filter,update,options={}){
+  return createDB().then(db=>{
+    return new Promise( rs => {
+      db.collection(collectionName).updateOne(filter,update,options,(err,result)=>{
+        if(err){
+          // console.log('insertError',err);
+          // console.log(college);
+          return rs(err);
+        }
+        // console.log("insertDB")
+        rs(result)
+      })
+    });
+  });
+}
+
+const insertMany = function(collectionName,docs,options={}){
+  return createDB().then(db=>{
+    return new Promise( rs => {
+      db.collection(collectionName).insertMany(docs,options,(err,result)=>{
+        if(err){
+          // console.log('insertError',err);
+          // console.log(college);
+          return rs(err);
+        }
+        // console.log("insertDB")
+        rs(result)
+      })
+    });
+  });
+}
 
 
 module.exports = {
@@ -67,4 +130,7 @@ module.exports = {
   requestHTML,
   insertToDB,
   hasInDB,
+  findOneDB,
+  findOneAndUpdateDB,
+  updateOneDB
 }

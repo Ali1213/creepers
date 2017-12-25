@@ -4,16 +4,16 @@ const getCounty = require('./county/getCounty');
 const {getJobTitle, getJobTitleWriteToTxt, readFromTxtWriteToDB} = require('./getJobTitle/jobTitle.js');
 
 //爬取所有学校
-// getAllColleges();
+// getAllColleges().catch(e=>console.log(e));
 
 //爬取所有专业
-// getMajor();
+getMajor().catch(e=>console.log(e));
 
 // 爬取省市县
-// getCounty();
+// getCounty().catch(e=>console.log(e));
 
 // 爬取职位名
-// getJobTitle();
+// getJobTitle().catch(e=>console.log(e));
 
 
 

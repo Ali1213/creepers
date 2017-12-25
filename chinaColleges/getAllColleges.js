@@ -57,7 +57,7 @@ const handleCompanyMajor = function (html) {
   for (let i = 0; i < majors.length; i++) {
     result.push({
       name: majors.eq(i).text().trim(),
-      url: config.domain + majors.eq(i).attr('href')
+      url: config.domain + majors.eq(i).attr('href').trim()
     })
   }
   return result;
@@ -95,7 +95,7 @@ const getMajorDescription = function (url) {
         }
         try {
           const $ = cheerio.load(res.text);
-          let description = $(".content").text();
+          let description = $(".content").text().trim();
           rs(description)
         } catch (e) {
           console.log(e);
@@ -108,7 +108,7 @@ const getMajorDescription = function (url) {
 const existData = function(collegeId){
   return createDB().then(db=>{
     return new Promise((rs,rj)=>{
-      db.collection('Colleges').findOne({collegeId:collegeId},(err,result)=>{
+      db.collection(config.colleges.dbname).findOne({collegeId:collegeId},(err,result)=>{
         if(err){
           // console.log('insertError',err);
           // console.log(college);
@@ -223,7 +223,7 @@ const insertDB = function(college){
   return createDB().then( db => {
     return new Promise((rs,rj)=>{
       // console.log(db.collection);
-      db.collection('Colleges').insert(college,(err,result)=>{
+      db.collection(config.colleges.dbname).insert(college,(err,result)=>{
         if(err){
           console.log('insertError',err);
           console.log(college);

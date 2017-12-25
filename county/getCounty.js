@@ -63,7 +63,7 @@ const getCounty = async function () {
   let resourceUrl = await getMainUrl(config.county.base);
   let counties = await getCountyByUrl(resourceUrl);
   for(let county of counties){
-    await public.insertToDB('Counties',county);
+    await public.insertToDB(config.county.dbname,county);
     console.log(`get ${county.countryName}`)
   }
 }

@@ -68,7 +68,7 @@ const readFromTxtWriteToDB = async function(){
   let jobs = await convertTextToWriteToDB();
   for(let job of jobs){
     if(job){
-      await public.insertToDB('JobTitle',job);
+      await public.insertToDB(config.jobTitle.dbname,job);
       console.log(`get ${job.jobTitle}`)
     }
   }

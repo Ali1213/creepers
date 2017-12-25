@@ -112,8 +112,8 @@ const main = async function () {
     let campanies = await getDataRecursionByUrl(industryUrl.Page1Url);
     for (let campany of campanies) {
       // console.log('run this')
-      if (! await public.hasInDB('kanzhun', { companyName: campany.companyName })) {
-        await public.insertToDB('kanzhun', {
+      if (! await public.hasInDB(config.kanzhun.dbname, { companyName: campany.companyName })) {
+        await public.insertToDB(config.kanzhun.dbname, {
           ...campany,
           class:industryUrl.className
         })
