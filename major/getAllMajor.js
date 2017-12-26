@@ -207,6 +207,7 @@ const getMajorData = async function (url = config.majors.baseUrl) {
       realData.description = await getMajorIntroduce(realData._url);
       await findRelationCollegeAndUpdateCollegeMajorCode(realData.name, realData.code);
       // realData.relationSchools = await getRelateSchoolInfo(realData.name);
+      delete realData['_url'];
       await record(realData);
     }
   }

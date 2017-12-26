@@ -15,12 +15,20 @@ const createDB = function () {
   }
 
   return new Promise((rs, rj) => {
-    MongoClient.connect(`mongodb://${config.mongodb}`, function(err, opendb){
+    let connectStr;
+    if(config.dbuser){
+      var user = encodeURIComponent(config.dbuser);
+      var password = encodeURIComponent(config.dbpassword);
+      var authMechanism = 'DEFAULT';
+      connectStr = `mongodb://${user}:${password}@${config.mongodb}?authMechanism=${authMechanism}`;
+    }else{
+      connectStr = `mongodb://${config.mongodb}`;
+    }
+    MongoClient.connect(connectStr, function(err, opendb){
       if(err){
         return rj(err);
       }
-      db = opendb.db('test')
-      // console.log(db.admin());
+      db = opendb.db(config.dbname)
       rs(db);
     })
   }).catch(e=> console.log(e));
@@ -38,7 +46,6 @@ const requestData = function (url) {
           console.log(err);
           return rj(err);
         }
-        console.log('requestData');
         rs(JSON.parse(res.text.slice(41, -2)));
       });
   });
@@ -72,10 +79,9 @@ const getCompanyMajorNaturlData = function (url) {
       .end((err, res) => {
         if (err) {
           console.log(err);
+          rj(err);
           return
         }
-        // console.log(res)
-        // console.log(222)
         rs(res.text);
       });
   });
@@ -110,11 +116,8 @@ const existData = function(collegeId){
     return new Promise((rs,rj)=>{
       db.collection(config.colleges.dbname).findOne({collegeId:collegeId},(err,result)=>{
         if(err){
-          // console.log('insertError',err);
-          // console.log(college);
           return rs(false);
         }
-        // console.log("insertDB")
         rs(result ? true:false)
       })
     });
@@ -135,18 +138,31 @@ const getCollegeData = async function (collegeUrl) {
       continue;
     }
 
-    let majorUrl = config.majorsUrl.replace(/specialty\d+/, `specialty${collegeId}`);
-    console.log(`getCompanyMajorNaturlData${convertData[i].name}`);
-    let tempdata = await getCompanyMajorNaturlData(majorUrl);
-    await delay(20);
+    let repeatTime = 0;
+    async function getMajors(collegeId){
+      let majorUrl = config.majorsUrl.replace(/specialty\d+/, `specialty${collegeId}`);
+      let tempdata = await getCompanyMajorNaturlData(majorUrl);
+      await delay(20+Math.floor(Math.random()*5));
+      let majors = handleCompanyMajor(tempdata);
 
-    console.log('handleCompanyMajor');
-    let majors = handleCompanyMajor(tempdata);
+      if(majors.length === 0 && repeatTime < 5){
+        console.log(` ${convertData[i].name}'s major the ${repeatTime} time is not found`)
+        repeatTime++;
+        await delay(5000);
+        majors = await getMajors(collegeId);
+      }else{
+        repeatTime = 0;
+      }
+      return majors;
+    }
+
+    let majors = await getMajors(collegeId);
+
     for (let [key, value] of majors.entries()) {
-      console.log(`getMajorDescription${value.name}`);
       majors[key].description = await getMajorDescription(value.url);
-
-      await delay(20);
+      console.log(`${value.name} is finding`)
+      delete majors[key].url;
+      await delay(20+Math.floor(Math.random()*5));
     }
     convertData[i].majors = majors;
   }
@@ -206,9 +222,6 @@ const getAllUrl = function (url, total) {
   let size = /\&size=(\d+)/.exec(url)[1];
   // let size = /\&size=(\d+)/.exec();
   let len = Math.ceil(total / size);
-  console.log(total);
-  console.log(size);
-  // console.log(total);
   let page = 1;
 
   while (page <= len) {
@@ -222,14 +235,12 @@ const getAllUrl = function (url, total) {
 const insertDB = function(college){
   return createDB().then( db => {
     return new Promise((rs,rj)=>{
-      // console.log(db.collection);
       db.collection(config.colleges.dbname).insert(college,(err,result)=>{
         if(err){
           console.log('insertError',err);
           console.log(college);
           return rs()
         }
-        console.log("insertDB")
         rs()
       })
     });
@@ -244,16 +255,15 @@ const run = async function () {
     let url = config.collegesUrl;
     let total = await getTotal(url);
     let allRequest = getAllUrl(url,total);
-    console.log(allRequest);
     for (let requestUrl of allRequest) {
-      let colleges = await getCollegeData(requestUrl);
       console.log(requestUrl);
-      console.log(allRequest.length);
+      let colleges = await getCollegeData(requestUrl);
       // let PromiseAll = Promise.all(colleges.map(item => insertDB(item)));
       for(let college of colleges){
         await insertDB(college);
       }
     }
+    console.log('done');
   }catch(e){
     console.log(e);
   }

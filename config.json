@@ -1,10 +1,14 @@
 {
-  "mongodb": "localhost:27017",
+  "mongodb": "127.0.0.1:27017/test",
+  "_mongodb": "120.27.202.182:7777/crm-test-170830",
+  "_dbuser":"crm-test-170830",
+  "_dbpassword":"qzpdvbdk3gwz3marpn",
   "country": "中国",
   "attentionRankName": "全国热度",
   "collegesUrl":"https://data-gkcx.eol.cn/soudaxue/queryschool.html?messtype=jsonp&callback=jQuery18305637706917546421_1513163425175&province=&schooltype=&page=1&size=30&keyWord1=&schoolprop=&schoolflag=&schoolsort=&schoolid=&_=1513163428667",
   "majorsUrl":"http://gkcx.eol.cn/schoolhtm/specialty/specialtyList/specialty31.htm",
   "domain": "http://gkcx.eol.cn",
+  "_dbname":"crm-test-170830",
   "dbname":"test",
   "MajorRelationSchool":"https://data-gkcx.eol.cn/soudaxue/querySchoolSpecialty.html?messtype=jsonp&callback=jQuery18305637706917546421_1513163425175&province=&schooltype=&page=1&size=100&keyWord1=哲学&schoolprop=&zycengci=&_=1513332457982",
   "majors":{
@@ -31,6 +35,6 @@
   "kanzhun":{
     "base": "http://m.kanzhun.com/plc70p1/",
     "more": "http://m.kanzhun.com/search/gs/more.json?cityCode=&industryCode=126&sortType=&tagId=0&q=&page=2",
-    "dbname":"ResumeCampanies"
+    "dbname":"ResumeCompanies"
   }
 }

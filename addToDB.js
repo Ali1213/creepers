@@ -9,16 +9,24 @@ const init = function () {
   }
 
   return new Promise((rs, rj) => {
-    MongoClient.connect(`mongodb://${config.mongodb}`, function(err, opendb){
+    let connectStr;
+    if(config.dbuser){
+      var user = encodeURIComponent(config.dbuser);
+      var password = encodeURIComponent(config.dbpassword);
+      var authMechanism = 'DEFAULT';
+      connectStr = `mongodb://${user}:${password}@${config.mongodb}?authMechanism=${authMechanism}`;
+    }else{
+      connectStr = `mongodb://${config.mongodb}`;
+    }
+    MongoClient.connect(connectStr, function(err, opendb){
       if(err){
         return rj(err);
       }
       db = opendb.db(config.dbname)
-      // console.log(db.admin());
       rs(db);
     })
-  }).catch(e=> console.log(e));
-}
+  });
+};
 
 
 module.exports = init;

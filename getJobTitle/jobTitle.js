@@ -8,7 +8,7 @@ const fs = require('fs');
 const got = require('got');
 const path = require('path');
 
-const TEXTNAME = '1.txt';
+const TEXTNAME = 'sort20171226.txt';
 
 const writeFile = function(datas){
   let writeFile = util.promisify(fs.writeFile,fs);
@@ -69,7 +69,7 @@ const readFromTxtWriteToDB = async function(){
   for(let job of jobs){
     if(job){
       await public.insertToDB(config.jobTitle.dbname,job);
-      console.log(`get ${job.jobTitle}`)
+      console.log(`get ${job.title}`)
     }
   }
 }
@@ -98,6 +98,7 @@ const convertTextToWriteToDB = async function(){
   return data;
 }
 
+// readFromTxtWriteToDB().catch(e=>console.log(e));
 
 module.exports ={
   getJobTitle,
