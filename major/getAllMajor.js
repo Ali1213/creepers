@@ -211,6 +211,7 @@ const getMajorData = async function (url = config.majors.baseUrl) {
       await record(realData);
     }
   }
+  console.log('done');
 }
 
 

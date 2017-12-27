@@ -132,5 +132,6 @@ module.exports = {
   hasInDB,
   findOneDB,
   findOneAndUpdateDB,
-  updateOneDB
+  updateOneDB,
+  insertMany,
 }

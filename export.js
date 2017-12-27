@@ -111,6 +111,7 @@ const all = async function(collections){
     transform(collection);
   }
   console.log('done');
+  process.exit(0);
 }
 
-all(["ResumeJobTitles"]).catch(e=>console.log(e));
+all(["Provinces"]).catch(e=>console.log(e));

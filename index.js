@@ -3,8 +3,10 @@ const getMajor = require('./major/getAllMajor');
 const getCounty = require('./county/getCounty');
 const {getJobTitle, getJobTitleWriteToTxt, readFromTxtWriteToDB} = require('./getJobTitle/jobTitle.js');
 
-//爬取所有学校
-getAllColleges().catch(e=>console.log(e));
+const getCredentials = require('./getCredentials/getCredentials');
+
+//爬取所有中国学校
+// getAllColleges().catch(e=>console.log(e));
 
 //爬取所有专业
 // getMajor().catch(e=>console.log(e));
@@ -15,5 +17,8 @@ getAllColleges().catch(e=>console.log(e));
 // 爬取职位名
 // getJobTitle().catch(e=>console.log(e));
 
+// 获取证书名称
+
+getCredentials().catch(e=>console.log(e));
 
 

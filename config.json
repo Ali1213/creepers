@@ -26,7 +26,7 @@
   },
   "county":{
     "base": "http://www.stats.gov.cn/tjsj/tjbz/xzqhdm/",
-    "dbname":"ResumeCounties"
+    "dbname":"Provinces"
   },
   "jobTitle":{
     "base": "https://sou.zhaopin.com/",
@@ -36,5 +36,9 @@
     "base": "http://m.kanzhun.com/plc70p1/",
     "more": "http://m.kanzhun.com/search/gs/more.json?cityCode=&industryCode=126&sortType=&tagId=0&q=&page=2",
     "dbname":"ResumeCompanies"
+  },
+  "getCredentials":{
+    "readFilename":"credentials.xlsx",
+    "collectionname":"ResumeCredentials"
   }
 }

@@ -8,7 +8,7 @@ const fs = require('fs');
 const got = require('got');
 const path = require('path');
 
-const getAllUrls = async function(mainUrl){
+const getNextUrl = async function(mainUrl){
   
 };
 

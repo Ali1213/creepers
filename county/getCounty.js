@@ -12,7 +12,6 @@ const getMainUrl = async function (baseUrl) {
   return url.resolve(baseUrl, cheerio.load(html)("ul.center_list_contlist a").attr("href"));
 }
 
-
 const parseCounty = function($content){
   let cities = [];
   let provice = "",
@@ -38,7 +37,12 @@ const parseCounty = function($content){
       cId = code;
       city = region;
     } else {
-
+      console.log(provice,city)
+      // 判断省名称为市的情况
+      if(provice.endsWith('市')){
+        city = provice;
+        cId = pId;
+      }
       cities.push({
         provinceName: provice,
         provinceId: pId,
@@ -52,20 +56,56 @@ const parseCounty = function($content){
   return cities;
 }
 
+
 const getCountyByUrl = async function (baseUrl) {
   let html = await public.requestHTML(baseUrl);
   let $content = cheerio.load(html)(".xilan_con .MsoNormal");
   return parseCounty($content);
 }
 
+
+const countiesToProvices = function(counties){
+  let provices = {};
+  counties.forEach(item => {
+    if(!provices[item.provinceId]){
+      provices[item.provinceId] = {
+        name: item.provinceName,
+        code: item.provinceId,
+        citiesJson:{}
+      }
+    }
+
+    if(!provices[item.provinceId].citiesJson[item.cityId]){
+      provices[item.provinceId].citiesJson[item.cityId] = {
+        name: item.provinceName,
+        code: item.provinceId,
+        counties:[]
+      }
+    }
+
+    provices[item.provinceId].citiesJson[item.cityId].counties.push({
+      name: item.countryName,
+      code: item.countryId
+    })
+  })
+  return Object.values(provices).map(item =>{
+    item.cities = Object.values(item.citiesJson);
+    delete item.citiesJson;
+    return item;
+  })
+}
+
 const getCounty = async function () {
   // 拿到最新的省市县表的url
   let resourceUrl = await getMainUrl(config.county.base);
   let counties = await getCountyByUrl(resourceUrl);
-  for(let county of counties){
-    await public.insertToDB(config.county.dbname,county);
-    console.log(`get ${county.countryName}`)
+  //省市县是之前写的代码，不想看了，写一个data handle
+  let provices = countiesToProvices(counties);
+  for(let provice of provices){
+    await public.insertToDB(config.county.dbname,provice);
+    console.log(`get ${provice.name}`)
   }
+  process.exit(0);
 }
 // console.log(util.promisify)
 
