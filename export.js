@@ -34,6 +34,7 @@ const createDB = function (obj) {
     }
     MongoClient.connect(connectStr, function(err, opendb){
       if(err){
+        console.log(err);
         return rj(err);
       }
       db = opendb.db(obj.dbname)
@@ -42,12 +43,12 @@ const createDB = function (obj) {
   });
 }
 
-const find = function(collectionName,condition,options={}){
+const find = function(collectionName,condition={},options={}){
   return createDB(dbConfig.inputDB).then(db=>{
     return new Promise( rs => {
       db.collection(collectionName).find(condition,options).toArray(function(err, docs) {
         if(err){
-          // console.log('insertError',err);
+          console.log('findError',err);
           // console.log(college);
           return rs(err);
         }
@@ -93,7 +94,6 @@ const transform = async function(collection){
     item._id = RandomID();
     return item;
   })
-
   await insertMany(collection,results);
 }
 
@@ -108,10 +108,10 @@ const all = async function(collections){
   }
 
   for(let collection of clts){
-    transform(collection);
+    await transform(collection);
   }
   console.log('done');
-  process.exit(0);
+  // process.exit(0);
 }
 
-all(["Provinces"]).catch(e=>console.log(e));
+all(["ResumeCredentials"]).catch(e=>console.log(e));
