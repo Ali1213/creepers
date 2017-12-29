@@ -40,5 +40,11 @@
   "getCredentials":{
     "readFilename":"credentials.xlsx",
     "collectionname":"ResumeCredentials"
+  },
+  "QSranks":{
+    "world-university-rankings-url":"https://www.topuniversities.com/university-rankings/world-university-rankings/2018",
+    "subject-rankings-url":"https://www.topuniversities.com/subject-rankings/2017",
+    "rank-txt":"https://www.topuniversities.com/sites/default/files/qs-rankings-data/357051.txt?_=1514528892865",
+    "collectionname":"ResumeQSUniversityRank"
   }
 }
