@@ -51,6 +51,7 @@
   },
   "USNEWSranks":{
     "universityRanksUrl": "https://www.usnews.com/best-colleges/rankings/national-universities",
-    "majorRanksUrl": "https://www.usnews.com/education/best-global-universities/rankings"
+    "majorRanksUrl": "https://www.usnews.com/education/best-global-universities/rankings",
+    "ranksUrlEx":"https://www.usnews.com/best-colleges/rankings/national-universities?_page=1&format=json"
   }
 }
