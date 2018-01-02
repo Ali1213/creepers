@@ -101,9 +101,53 @@ const qsUniversityRank = async function (mainUrl = config.QSranks["world-univers
   // }
 }
 
-qsUniversityRank().catch(e => error(e));
+let major_ranks_info = [{ "value": "", "label": "<b>Broad subject area</b>" }, { "value": "/arts-humanities", "label": "Arts & Humanities" }, { "value": "/engineering-technology", "label": "Engineering & Technology" }, { "value": "/life-sciences-medicine", "label": "Life Sciences & Medicine" }, { "value": "/natural-sciences", "label": "Natural Sciences" }, { "value": "/social-sciences-management", "label": "Social Sciences" }, { "value": "-", "label": "<b>Specific subject</b>" }, { "value": "/accounting-finance", "label": "Accounting & Finance" }, { "value": "/agriculture-forestry", "label": "Agriculture & Forestry" }, { "value": "/anatomy-physiology", "label": "Anatomy & Physiology" }, { "value": "/anthropology", "label": "Anthropology" }, { "value": "/archaeology", "label": "Archaeology" }, { "value": "/architecture", "label": "Architecture" }, { "value": "/art-design", "label": "Art & Design" }, { "value": "/biological-sciences", "label": "Biological Sciences" }, { "value": "/business-management-studies", "label": "Business & Management" }, { "value": "/engineering-chemical", "label": "Chemical Engineering" }, { "value": "/chemistry", "label": "Chemistry" }, { "value": "/engineering-civil-structural", "label": "CiviI & Structural Engineering" }, { "value": "/communication-media-studies", "label": "Communication & Media Studies" }, { "value": "/computer-science-information-systems", "label": "Computer Science" }, { "value": "/dentistry", "label": "Dentistry" }, { "value": "/development-studies", "label": "Development Studies" }, { "value": "/earth-marine-sciences", "label": "Earth & Marine Sciences" }, { "value": "/economics-econometrics", "label": "Economics & Econometrics" }, { "value": "/education-training", "label": "Education" }, { "value": "/engineering-electrical-electronic", "label": "Electrical & Electronic Engineering" }, { "value": "/english-language-literature", "label": "English Language & Literature" }, { "value": "/environmental-studies", "label": "Environmental Sciences" }, { "value": "/geography", "label": "Geography" }, { "value": "/history", "label": "History" }, { "value": "/hospitality-leisure-management", "label": "Hospitality & Leisure Management" }, { "value": "/law-legal-studies", "label": "Law" }, { "value": "/linguistics", "label": "Linguistics" }, { "value": "/materials-sciences", "label": "Materials Science" }, { "value": "/mathematics", "label": "Mathematics" }, { "value": "/engineering-mechanical", "label": "Mechanical, Aeronautical & Manufacturing Engineering" }, { "value": "/medicine", "label": "Medicine" }, { "value": "/engineering-mineral-mining", "label": "Mineral & Mining Engineering" }, { "value": "/modern-languages", "label": "Modern Languages" }, { "value": "/nursing", "label": "Nursing" }, { "value": "/performing-arts", "label": "Performing Arts" }, { "value": "/pharmacy-pharmacology", "label": "Pharmacy & Pharmacology" }, { "value": "/philosophy", "label": "Philosophy" }, { "value": "/physics-astronomy", "label": "Physics & Astronomy" }, { "value": "/politics", "label": "Politics & International Studies" }, { "value": "/psychology", "label": "Psychology" }, { "value": "/social-policy-administration", "label": "Social Policy & Administration" }, { "value": "/sociology", "label": "Sociology" }, { "value": "/sports-related-subjects", "label": "Sports-related Subjects" }, { "value": "/statistics-operational-research", "label": "Statistics" }, { "value": "/theology-divinity-religious-studies", "label": "Theology, Divinity & Religious Studies" }, { "value": "/veterinary-science", "label": "Veterinary Science" },]
 
+const qcMajorRank = async function (majorInfos) {
+  if (!majorInfos) {
+    majorInfos = major_ranks_info.map(item => {
+      if (item.value.startsWith('/')) {
+        item.value = config.QSranks['major-url'] + item.value;
+        return item;
+      } else {
+        return null;
+      }
+    })
+  }
+  for (let majorInfo of majorInfos) {
+    if(!majorInfo) continue;
+    let rankDatas = await gotMainContext(majorInfo.value);
+    await handleMajorsAndWriteToDB(rankDatas,majorInfo.label);
+    console.log(`${majorInfo.label}   done`);
+  }
+  console.log('done');
+}
 
-// module.exports = {
+const majorDataHandle = function (university, addition) {
+  return {
+    name: university.title,
+    major: addition.major,
+    score: university.score,
+    rank: university.rank_display,
+    country: university.country,
+    continent: university.region,
+    rankYear: addition.rankYear,
+  }
+}
 
-// }
+const handleMajorsAndWriteToDB = async function(rankDatas,major){
+  for (let everyYearRank of rankDatas) {
+    let year = everyYearRank.year;
+    for (let university of everyYearRank.data) {
+      let newU = majorDataHandle(university, { rankYear: year, major });
+      await public.insertToDB(config.QSranks.majorCollectionname, newU);
+    }
+  }
+}
+
+// qcMajorRank().catch(e => error(e))
+
+module.exports = {
+   qsUniversityRank,
+   qcMajorRank,
+}

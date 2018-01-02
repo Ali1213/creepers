@@ -5,6 +5,8 @@ const {getJobTitle, getJobTitleWriteToTxt, readFromTxtWriteToDB} = require('./ge
 
 const getCredentials = require('./getCredentials/getCredentials');
 
+const {qsUniversityRank, qcMajorRank} = require('./QSranks/QSranks.js');
+
 //爬取所有中国学校
 // getAllColleges().catch(e=>console.log(e));
 
@@ -18,7 +20,8 @@ const getCredentials = require('./getCredentials/getCredentials');
 // getJobTitle().catch(e=>console.log(e));
 
 // 获取证书名称
+// getCredentials().catch(e=>console.log(e));
 
-getCredentials().catch(e=>console.log(e));
-
-
+// 爬取国外学校
+// qsUniversityRank().catch(e=>console.log(e));
+// qcMajorRank().catch(e=>console.log(e));

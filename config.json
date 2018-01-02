@@ -45,6 +45,12 @@
     "world-university-rankings-url":"https://www.topuniversities.com/university-rankings/world-university-rankings/2018",
     "subject-rankings-url":"https://www.topuniversities.com/subject-rankings/2017",
     "rank-txt":"https://www.topuniversities.com/sites/default/files/qs-rankings-data/357051.txt?_=1514528892865",
-    "collectionname":"ResumeQSUniversityRank"
+    "major-url":"https://www.topuniversities.com/university-rankings/university-subject-rankings/2017/",
+    "collectionname":"ResumeQSUniversityRank",
+    "majorCollectionname":"ResumeQSMajorRank"
+  },
+  "USNEWSranks":{
+    "universityRanksUrl": "https://www.usnews.com/best-colleges/rankings/national-universities",
+    "majorRanksUrl": "https://www.usnews.com/education/best-global-universities/rankings"
   }
 }
