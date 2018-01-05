@@ -52,6 +52,9 @@
   "USNEWSranks":{
     "universityRanksUrl": "https://www.usnews.com/best-colleges/rankings/national-universities",
     "majorRanksUrl": "https://www.usnews.com/education/best-global-universities/rankings",
-    "ranksUrlEx":"https://www.usnews.com/best-colleges/rankings/national-universities?_page=1&format=json"
+    "ranksUrlEx":"https://www.usnews.com/best-colleges/rankings/national-universities?_page=1&format=json",
+    "majorRanksUrlEx": "https://www.usnews.com/education/best-global-universities/arts-and-humanities?_page=1&format=json",
+    "collectionname":"ResumeUSNEWSUniversityRank",
+    "majorcollectionname":"ResumeUSNEWSMajorRank"
   }
 }

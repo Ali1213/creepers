@@ -1,0 +1,444 @@
+亚洲排名	学校名称	学校英文名	国家/地区	世界排名
+1	新加坡国立大学	National University of Singapore	 新加坡	43
+2	南洋理工大学	Nanyang Technological University	 新加坡	55
+3	东京大学	University of Tokyo	 日本	57
+4	清华大学	Tsinghua University	 中国	64
+5	北京大学	Peking University	 中国	65
+6	魏茨曼科学学院	Weizmann Institute of Science	 以色列	104
+7	香港大学	University of Hong Kong	 香港	109
+8	阿卜杜勒阿齐兹国王大学	King Abdulaziz University	 沙特	110
+9	京都大学	Kyoto University	 日本	114
+10	首尔国立大学	Seoul National University	 韩国	123
+11	中国科学技术大学	University of Science and Technology of China	 中国	145
+12	香港中文大学	Chinese University Hong Kong	 香港	148
+12	复旦大学	Fudan University	 中国	148
+14	香港科技大学	Hong Kong University of Science and Technology	 香港	152
+15	上海交通大学	Shanghai Jiao Tong University	 中国	156
+16	浙江大学	Zhejiang University	 中国	159
+17	国立台湾大学	National Taiwan University	 台湾	166
+18	特拉维夫大学	Tel Aviv University	 以色列	173
+19	耶路撒冷希伯来大学	Hebrew University of Jerusalem	 以色列	181
+20	阿卜杜勒国王科技大学	King Abdullah University of Science & Technology	 沙特	183
+21	香港城市大学	City University Hong Kong	 香港	186
+22	海峡大学	Boğaziçi University	 土耳其	190
+22	南京大学	Nanjing University	 中国	190
+24	大阪大学	Osaka University	 日本	194
+25	韩国高等科技学院	Korea Advanced Institute of Science and Technology	 韩国	198
+26	成均馆大学	Sungkyunkwan University	 韩国	200
+27	东北大学（日本）	Tohoku University	 日本	204
+28	香港理工大学	Hong Kong Polytechnic University	 香港	234
+29	中山大学	Sun Yat-sen University	 中国	237
+30	以色列理工学院	Technion Israel Institute of Technology	 以色列	239
+31	名古屋大学	Nagoya University	 日本	247
+32	高丽大学	Korea University	 韩国	274
+33	东京工业大学	Tokyo Institute of Technology	 日本	281
+34	华中科技大学	Huazhong University of Science and Technology	 中国	282
+35	浦项科技大学	Pohang University of Science and Technology	 韩国	296
+36	马来亚大学	University of Malaya	 马来西亚	301
+37	哈尔滨工业大学	Harbin Institute of Technology	 中国	304
+38	延世大学	Yonsei University	 韩国	307
+39	中东理工大学	Middle East Technical University	 土耳其	314
+40	九州大学	Kyushu University	 日本	316
+41	武汉大学	Wuhan University	 中国	321
+42	北京师范大学	Beijing Normal University	 中国	324
+43	同济大学	Tongji University	 中国	327
+44	南开大学	Nankai University	 中国	333
+45	伊斯坦布尔理工大学	Istanbul Technical University	 土耳其	336
+46	厦门大学	Xiamen University	 中国	344
+47	早稻田大学	Waseda University	 日本	357
+48	第比利斯国立大学	Ivane Javakhishvili Tbilisi State University	 格鲁吉亚	359
+49	筑波大学	University of Tsukuba	 日本	363
+50	北海道大学	Hokkaido University	 日本	370
+50	国立清华大学	National Tsing Hua University	 台湾	370
+52	沙特国王大学	King Saud University	 沙特	377
+53	西安交通大学	Xi'an Jiaotong University	 中国	380
+54	东南大学	Southeast University	 中国	382
+55	蔚山国立科技学院	Ulsan National Institute of Science & Technology	 韩国	392
+56	中国地质大学	China University of Geosciences	 中国	397
+57	山东大学	Shandong University	 中国	400
+57	华南理工大学	South China University of Technology	 中国	400
+59	大连理工大学	Dalian University of Technology	 中国	429
+60	中南大学	Central South University	 中国	445
+61	北京航空航天大学	Beihang University	 中国	453
+61	吉林大学	Jilin University	 中国	453
+63	印度科学学院	Indian Institute of Science	 印度	460
+64	塞浦路斯大学	University of Cyprus	 塞浦路斯	462
+64	德黑兰大学	University of Tehran	 伊朗	462
+66	庆应义塾大学	Keio University	 日本	466
+66	天津大学	Tianjin University	 中国	466
+68	中国农业大学	China Agricultural University	 中国	479
+68	汉阳大学	Hanyang University	 韩国	479
+68	苏州大学	Soochow University	 中国	479
+68	首都大学东京	Tokyo Metropolitan University	 日本	479
+72	本古里安大学	Ben-Gurion University of the Negev	 以色列	487
+73	北京理工大学	Beijing Institute of Technology	 中国	491
+73	毕尔坎特大学	Bilkent University	 土耳其	491
+73	广岛大学	Hiroshima University	 日本	491
+76	阿萨德大学	Islamic Azad University Karaj	 伊朗	497
+77	玛希隆大学	Mahidol University	 泰国	509
+78	华东师范大学	East China Normal University	 中国	511
+79	华中师范大学	Central China Normal University	 中国	513
+79	旁遮普大学（印度）	Panjab University	 印度	513
+81	国立成功大学	National Cheng Kung University	 台湾	519
+81	沙里夫理工大学	Sharif University of Technology	 伊朗	519
+81	四川大学	Sichuan University	 中国	519
+84	庆熙大学	Kyung Hee University	 韩国	526
+85	国立中央大学	National Central University	 台湾	529
+86	香港浸会大学	Hong Kong Baptist University	 香港	535
+86	神户大学	Kobe University	 日本	535
+86	兰州大学	Lanzhou University	 中国	535
+89	朱拉隆功大学	Chulalongkorn University	 泰国	539
+90	印度理工学院孟买分校	Indian Institute of Technology Bombay	 印度	548
+90	冈山大学	Okayama University	 日本	548
+92	上海大学	Shanghai University	 中国	551
+93	华东理工大学	East China University of Science and Technology	 中国	553
+94	庆北国立大学	Kyungpook National University	 韩国	555
+95	巴伊兰大学	Bar-Ilan University	 以色列	559
+95	奎德阿萨姆大学	Quaid I Azam University	 巴基斯坦	559
+97	马来西亚理工大学	Universiti Teknologi Malaysia	 马来西亚	562
+98	梨花女子大学	Ewha Womans University	 韩国	565
+99	哈斯特帕大学	Hacettepe University	 土耳其	567
+100	首尔大学	University of Seoul	 韩国	570
+101	全南国立大学	Chonnam National University	 韩国	573
+101	国立交通大学	National Chiao Tung University	 台湾	573
+103	马来西亚理科大学	Universiti Sains Malaysia	 马来西亚	579
+104	湖南大学	Hunan University	 中国	586
+105	安卡拉大学	Ankara University	 土耳其	590
+105	伊斯法罕理工大学	Isfahan University of Technology	 伊朗	590
+107	电子科技大学	University of Electronic Science and Technology of China	 中国	597
+108	蔚山大学	University of Ulsan	 韩国	601
+109	中国人民大学	Renmin University of China	 中国	611
+110	法赫德国王石油矿产大学	King Fahd University of Petroleum and Minerals (KFUPM)	 沙特	623
+110	釜山国立大学	Pusan National University	 韩国	623
+112	东京医科齿科大学	Tokyo Medical and Dental University	 日本	627
+113	千叶大学	Chiba University	 日本	630
+113	印度理工学院德里分校	Indian Institute of Technology Delhi	 印度	630
+115	马来西亚博特拉大学	Universiti Putra Malaysia	 马来西亚	638
+116	北京交通大学	Beijing Jiaotong University	 中国	645
+116	全北国立大学	Chonbuk National University	 韩国	645
+118	重庆大学	Chongqing University	 中国	655
+119	阿米尔卡比尔理工大学	Amirkabir University of Technology (AUT)	 伊朗	661
+120	东华大学	Donghua University	 中国	663
+120	光州科技学院	Gwangju Institute of Science and Technology	 韩国	663
+120	北京科技大学	University of Science & Technology Beijing	 中国	663
+123	伊斯坦布尔大学	Istanbul University	 土耳其	668
+124	印度理工学院马德拉斯分校	Indian Institute of Technology Madras	 印度	672
+125	南京农业大学	Nanjing Agricultural University	 中国	673
+126	贝鲁特美国大学	American University of Beirut	 黎巴嫩	680
+127	马来西亚国民大学	National University of Malaysia	 马来西亚	696
+128	印度理工学院克勒格布尔分校	Indian Institute of Technology Kharagpur	 印度	698
+128	信州大学	Shinshu University	 日本	698
+128	海法大学	University of Haifa	 以色列	698
+131	爱琴海大学（土耳其）	Ege University	 土耳其	701
+132	阿里格尔穆斯林大学	Aligarh Muslim University	 印度	704
+132	北京化工大学	Beijing University of Chemical Technology	 中国	704
+132	印度理工学院坎普尔分校	Indian Institute of Technology Kanpur	 印度	704
+132	国立台湾科技大学	National Taiwan University of Science and Technology	 台湾	704
+136	印度理工学院鲁尔基分校	Indian Institute of Technology (IIT) - Roorkee	 印度	710
+136	科奇大学	Koc University - Turkey	 土耳其	710
+138	德里大学	University of Delhi	 印度	719
+139	中国海洋大学	Ocean University of China	 中国	721
+140	西南大学（中国）	Southwest University - China	 中国	724
+141	国立中山大学	National Sun Yat-Sen University	 台湾	726
+142	东北大学（中国）	Northeastern University - China	 中国	731
+143	首都医科大学	Capital Medical University	 中国	735
+143	福州大学	Fuzhou University	 中国	735
+143	华中农业大学	Huazhong Agricultural University	 中国	735
+146	切库罗瓦大学	Cukurova University	 土耳其	742
+146	立命馆大学	Ritsumeikan University	 日本	742
+146	澳门大学	University of Macau	 澳门	742
+149	南京航空航天大学	Nanjing University of Aeronautics and Astronautics	 中国	748
+150	中国医药大学	China Medical University Taiwan	 台湾	750
+150	西北大学（中国）	Northwest University,  Xi'an	 中国	750
+152	西北工业大学	Northwestern Polytechnical University	 中国	753
+153	国立阳明大学	National Yang-Ming University	 台湾	756
+153	德黑兰医科大学	Tehran University of Medical Sciences	 伊朗	756
+155	阿迦汗大学	Aga Khan University	 巴基斯坦	765
+155	耶尔德兹理工大学	Yildiz Teknik University	 土耳其	765
+157	贝拿勒斯印度教大学	Banaras Hindu University	 印度	768
+158	梅尔辛大学	Mersin University	 土耳其	771
+159	世宗大学	Sejong University	 韩国	773
+160	江南大学	Jiangnan University	 中国	777
+161	长庚大学	Chang Gung University	 台湾	785
+161	韩国岭南大学	Yeungnam University	 韩国	785
+163	全印医学科学学院	All India Institute of Medical Sciences	 印度	790
+163	合肥工业大学	Hefei University of Technology	 中国	790
+165	咖兹大学	Gazi University	 土耳其	795
+165	伊朗科技大学	Iran University Science & Technology	 伊朗	795
+165	南京理工大学	Nanjing University of Science & Technology	 中国	795
+168	庆尚国立大学	Gyeongsang National University	 韩国	799
+169	东京理科大学	Tokyo University of Science	 日本	800
+169	卡塔尔大学	University of Qatar	 卡塔尔	800
+171	西北农林科技大学	Northwest A&F University - China	 中国	803
+172	塔比特默德尔斯大学	Tarbiat Modares University	 伊朗	806
+173	中国石油大学	China University of Petroleum	 中国	807
+174	建国大学	Konkuk University	 韩国	812
+175	仁荷大学	Inha University	 韩国	813
+176	第四军医大学	Fourth Military Medical University	 中国	818
+176	南京师范大学	Nanjing Normal University	 中国	818
+176	大阪市立大学	Osaka City University	 日本	818
+179	新潟大学	Niigata University	 日本	829
+180	清迈大学	Chiang Mai University	 泰国	838
+181	贾达普大学	Jadavpur University	 印度	840
+182	国防科技大学	National University of Defence Technology - China	 中国	842
+183	华北电力大学	North China Electric Power University	 中国	844
+184	江原国立大学	Kangwon National University	 韩国	845
+184	郑州大学	Zhengzhou University	 中国	845
+186	北京邮电大学	Beijing University of Posts	 中国	849
+186	金泽大学	Kanazawa University	 日本	849
+188	熊本大学	Kumamoto University	 日本	855
+188	南京医科大学	Nanjing Medical University	 中国	855
+190	综合研究大学院大学	Graduate University for Advanced Studies - Japan	 日本	857
+191	韩国中央大学	Chung Ang University	 韩国	864
+191	哈尔滨工程大学	Harbin Engineering University	 中国	864
+191	深圳大学	Shenzhen University	 中国	864
+194	马什哈德菲尔多西大学	Ferdowsi University Mashhad	 伊朗	868
+194	阿联酋大学	United Arab Emirates University	 阿联酋	868
+196	武汉理工大学	Wuhan University of Technology	 中国	873
+197	加济安泰普大学	Gaziantep University	 土耳其	876
+198	加齐奥斯曼帕夏大学	Gaziosmanpasa University	 土耳其	880
+198	大不里士大学	University of Tabriz	 伊朗	880
+200	河海大学	Hohai University	 中国	885
+201	韩国天主大学	Catholic University of Korea	 韩国	887
+201	国立中兴大学	National Chung Hsing University	 台湾	887
+203	北京林业大学	Beijing Forestry University	 中国	889
+203	国立台湾师范大学	National Taiwan Normal University	 台湾	889
+205	北京工业大学	Beijing University of Technology	 中国	891
+205	西安电子科技大学	Xidian University	 中国	891
+207	亚洲大学	Ajou University	 韩国	896
+207	台北医学大学	Taipei Medical University	 台湾	896
+209	长崎大学	Nagasaki University	 日本	901
+210	忠南国立大学	Chungnam National University	 韩国	903
+211	伊斯兰堡国立科技大学	National University of Sciences & Technology - Pakistan	 巴基斯坦	905
+212	马尔马拉大学	Marmara University	 土耳其	912
+212	苏丹卡布斯大学	Sultan Qaboos University	 阿曼	912
+214	东海大学（日本）	Tokai University	 日本	914
+215	东北师范大学	Northeast Normal University - China	 中国	917
+216	中国矿业大学	China University of Mining	 中国	919
+216	上海师范大学	Shanghai Normal University	 中国	919
+218	泰国农业大学	Kasetsart University	 泰国	922
+218	海得拉巴大学	University of Hyderabad	 印度	922
+220	东京农业大学	Tokyo University of Agriculture	 日本	925
+221	南京工业大学	Nanjing University of Technology	 中国	927
+222	江苏大学	Jiangsu University	 中国	934
+222	西南交通大学	Southwest Jiaotong University	 中国	934
+224	暨南大学	Jinan University	 中国	936
+225	印度理工学院古瓦哈提分校	Indian Institute of Technology (IIT) - Guwahati	 印度	938
+225	鹿儿岛大学	Kagoshima University	 日本	938
+225	西江大学	Sogang University	 韩国	938
+228	忠北国立大学	Chungbuk National University	 韩国	941
+229	约旦科技大学	Jordan University of Science & Technology	 约旦	943
+229	第三军医大学	Third Military Medical University	 中国	943
+231	华南师范大学	South China Normal University	 中国	948
+232	奈良先端科学技术大学院大学	Nara Institute of Science	 日本	950
+232	帝京大学	Teikyo University	 日本	950
+234	高雄医学大学	Kaohsiung Medical University	 台湾	956
+235	宋卡王子大学	Prince Songkla University	 泰国	961
+236	德米雷尔大学	Suleyman Demirel University	 土耳其	964
+237	尼赫鲁大学	Jawaharlal Nehru University	 印度	966
+237	科威特大学	Kuwait University	 科威特	966
+239	孔敬大学	Khon Kaen University	 泰国	971
+239	高知大学	Kochi University	 日本	971
+241	顺天堂大学	Juntendo University	 日本	973
+241	山西大学	Shanxi University	 中国	973
+243	爱媛大学	Ehime University	 日本	977
+243	南昌大学	Nanchang University	 中国	977
+245	中国医科大学	China Medical University	 中国	980
+245	东京医科大学	Tokyo Medical University	 日本	980
+247	近畿大学	Kinki University (Kindai University)	 日本	983
+248	天津医科大学	Tianjin Medical University	 中国	985
+249	华南农业大学	South China Agricultural University	 中国	990
+250	富山大学	University of Toyama	 日本	994
+251	南京信息工程大学	Nanjing University of Information Science & Technology	 中国	996
+252	日本大学	Nihon University	 日本	999
+252	横滨市立大学	Yokohama City University	 日本	999
+254	加尔各答大学	University of Calcutta	 印度	1003
+254	湘潭大学	Xiangtan University	 中国	1003
+254	浙江工业大学	Zhejiang University of Technology	 中国	1003
+257	山形大学	Yamagata University	 日本	1009
+258	中国药科大学	China Pharmaceutical University	 中国	1010
+259	国立台湾海洋大学	National Taiwan Ocean University	 台湾	1014
+259	第二军医大学	Second Military Medical University	 中国	1014
+261	青岛大学	Qingdao University	 中国	1019
+261	电气通信大学	University of Electro-Communications - Japan	 日本	1019
+263	埃尔吉耶斯大学	Erciyes University	 土耳其	1023
+264	釜庆国立大学	Pukyong National University	 韩国	1025
+265	杜库兹伊鲁尔大学	Dokuz Eylul University	 土耳其	1028
+266	嘉泉大学	Gachon University	 韩国	1029
+267	安娜大学	Anna University Chennai	 印度	1032
+268	上海海洋大学	Shanghai Ocean University	 中国	1037
+268	约旦大学	University of Jordan	 约旦	1037
+270	东国大学	Dongguk University	 韩国	1040
+271	浙江师范大学	Zhejiang Normal University	 中国	1044
+272	东京女子医科大学	Tokyo Women's Medical University	 日本	1048
+273	德岛大学	Tokushima University	 日本	1050
+274	旁遮普大学（巴基斯坦）	University of Punjab	 巴基斯坦	1051
+275	台湾亚洲大学	Asia University Taiwan	 台湾	1055
+275	汕头大学	Shantou University	 中国	1055
+277	岐阜大学	Gifu University	 日本	1057
+278	阿塔图尔克大学	Ataturk University	 土耳其	1062
+279	浦那大学	University of Pune	 印度	1068
+280	阿克登尼基大学	Akdeniz University	 土耳其	1070
+280	黑海理工大学	Karadeniz Teknik University	 土耳其	1070
+280	上海理工大学	University of Shanghai for Science	 中国	1070
+280	云南大学	Yunnan University	 中国	1070
+284	陕西师范大学	Shaanxi Normal University	 中国	1078
+285	埼玉大学	Saitama University	 日本	1080
+286	国立中正大学	National Chung Cheng University	 台湾	1082
+286	国立台北科技大学	National Taipei University of Technology	 台湾	1082
+288	玛拉工艺大学	Universiti Teknologi MARA	 马来西亚	1084
+289	巴基斯坦信息技术学院	COMSATS Institute of Information Technology (CIIT)	 巴基斯坦	1092
+289	京都府立医科大学	Kyoto Prefectural University of Medicine	 日本	1092
+289	费萨拉巴德农业大学	University of Agriculture Faisalabad	 巴基斯坦	1092
+292	哈尔滨医科大学	Harbin Medical University	 中国	1097
+292	伊斯法罕大学	University of Isfahan	 伊朗	1097
+294	杭州师范大学	Hangzhou Normal University	 中国	1100
+294	乌鲁达大学	Uludag University	 土耳其	1100
+296	藤田保健卫生大学	Fujita Health University	 日本	1104
+296	韦洛尔理工学院	Vellore Institute of Technology	 印度	1104
+298	山口大学	Yamaguchi University	 日本	1106
+298	横滨国立大学	Yokohama National University	 日本	1106
+300	大阪府立大学	Osaka Prefecture University	 日本	1109
+301	南京邮电大学	Nanjing University of Posts & Telecommunications	 中国	1111
+302	三重大学	Mie University	 日本	1114
+303	名古屋市立大学	Nagoya City University	 日本	1116
+304	东北林业大学	Northeast Forestry University - China	 中国	1117
+305	重庆医科大学	Chongqing Medical University	 中国	1119
+305	名古屋工业大学	Nagoya Institute of Technology	 日本	1119
+305	塞尔丘克大学	Selcuk University	 土耳其	1119
+308	马德拉斯大学	University of Madras	 印度	1123
+309	九州工业大学	Kyushu Institute of Technology	 日本	1125
+309	琉球大学	University of Ryukyus	 日本	1125
+309	浙江理工大学	Zhejiang Sci-Tech University	 中国	1125
+312	首都师范大学	Capital Normal University	 中国	1128
+313	菲亚特大学	Firat University	 土耳其	1130
+314	檀国大学	Dankook University	 韩国	1132
+314	国立东华大学	National Dong Hwa University	 台湾	1132
+314	首尔国立科技大学	Seoul National University of Science & Technology	 韩国	1132
+317	阿纳多卢大学	Anadolu University	 土耳其	1137
+317	北里大学	Kitasato University	 日本	1137
+319	中原大学	Chung Yuan Christian University	 台湾	1140
+320	安徽大学	Anhui University	 中国	1143
+321	山梨大学	University of Yamanashi	 日本	1144
+322	自治医科大学	Jichi Medical University	 日本	1145
+323	仁济大学	Inje University	 韩国	1146
+323	佐贺大学	Saga University	 日本	1146
+323	静冈大学	Shizuoka University	 日本	1146
+326	青岛科技大学	Qingdao University of Science & Technology	 中国	1149
+326	沙希德·贝赫什提医科大学	Shahid Beheshti University Medical Sciences	 伊朗	1149
+328	日本医科大学	Nippon Medical School	 日本	1152
+329	翰林大学	Hallym University	 韩国	1156
+330	茨城大学	Ibaraki University	 日本	1158
+331	东亚大学	Dong A University	 韩国	1162
+331	广西大学	Guangxi University	 中国	1162
+331	群马大学	Gunma University	 日本	1162
+334	宫崎大学	University of Miyazaki	 日本	1167
+335	久留米大学	Kurume University	 日本	1170
+336	朝鲜大学	Chosun University	 韩国	1172
+336	札幌医科大学	Sapporo Medical University	 日本	1172
+336	淡江大学	Tamkang University	 台湾	1172
+339	济州国立大学	Jeju National University	 韩国	1176
+339	太原理工大学	Taiyuan University of Technology	 中国	1176
+341	济南大学	University of Jinan	 中国	1178
+341	扬州大学	Yangzhou University	 中国	1178
+343	安那马来大学	Annamalai University	 印度	1181
+343	杭州电子科技大学	Hangzhou Dianzi University	 中国	1181
+343	沈阳药科大学	Shenyang Pharmaceutical University	 中国	1181
+343	南方医科大学	Southern Medical University - China	 中国	1181
+347	马尼帕尔大学	Manipal University	 印度	1186
+347	昭和大学	Showa University	 日本	1186
+349	天津工业大学	Tianjin Polytechnic University	 中国	1188
+350	燕山大学	Yanshan University	 中国	1190
+350	元智大学	Yuan Ze University	 台湾	1190
+352	辅仁大学	Fu Jen Catholic University	 台湾	1193
+352	福冈大学	Fukuoka University	 日本	1193
+352	崇实大学	Soongsil University	 韩国	1193
+355	慈惠大学	Jikei University	 日本	1196
+355	温州医科大学	Wenzhou Medical University	 中国	1196
+357	弘前大学	Hirosaki University	 日本	1199
+357	国民大学	Kookmin University	 韩国	1199
+359	山东农业大学	Shandong Agricultural University	 中国	1201
+359	东邦大学	Toho University	 日本	1201
+361	安徽医科大学	Anhui Medical University	 中国	1206
+362	广东工业大学	Guangdong University of Technology	 中国	1207
+362	河南师范大学	Henan Normal University	 中国	1207
+364	宁波大学	Ningbo University	 中国	1209
+364	卡拉奇大学	University of Karachi	 巴基斯坦	1209
+366	顺天乡大学	Soonchunhyang University	 韩国	1212
+367	四川农业大学	Sichuan Agricultural University	 中国	1213
+368	科贾埃利大学	Kocaeli University	 土耳其	1215
+369	香川大学	Kagawa University	 日本	1217
+369	光云大学	Kwangwoon University	 韩国	1217
+371	江苏师范大学	Jiangsu Normal University	 中国	1220
+372	大连医科大学	Dalian Medical University	 中国	1221
+372	新疆大学	Xinjiang University	 中国	1221
+374	天津科技大学	Tianjin University Science & Technology	 中国	1223
+375	设拉子医科大学	Shiraz University of Medical Science	 伊朗	1224
+376	逢甲大学	Feng Chia University	 台湾	1225
+376	兵库大学	University of Hyogo	 日本	1225
+378	黑龙江大学	Heilongjiang University	 中国	1227
+378	昂达库兹美伊斯大学	Ondokuz Mayis University	 土耳其	1227
+380	塔帕尔大学	Thapar University	 印度	1230
+381	上海中医药大学	Shanghai University of Traditional Chinese Medicine	 中国	1231
+382	埃斯基谢希尔大学	Eskisehir Osmangazi University	 土耳其	1233
+382	帕姆卡尔大学	Pamukkale University	 土耳其	1233
+382	岛根大学	Shimane University	 日本	1233
+385	福井大学	University of Fukui	 日本	1237
+386	兵库医科大学	Hyogo College of Medicine	 日本	1238
+387	山东师范大学	Shandong Normal University	 中国	1240
+387	温州大学	Wenzhou University	 中国	1240
+389	圆光大学	Wonkwang University	 韩国	1242
+390	昆明理工大学	Kunming University of Science and Technology	 中国	1243
+391	贵州大学	Guizhou University	 中国	1244
+392	中国计量学院	China Jiliang University	 中国	1247
+392	广州医科大学	Guangzhou Medical University	 中国	1247
+394	湖北大学	Hubei University	 中国	1249
+394	南京中医药大学	Nanjing University of Chinese Medicine	 中国	1249
+-	阿德亚曼大学	Adiyaman University	 土耳其	-
+-	爱知医科大学	Aichi Medical University	 日本	-
+-	安徽师范大学	Anhui Normal University	 中国	-
+-	安徽工业大学	Anhui University of Technology	 中国	-
+-	安提里姆大学	Atilim University	 土耳其	-
+-	巴伯勒理工大学	Babol Noshirvani University of Technology	 伊朗	-
+-	常州大学	Changzhou University	 中国	-
+-	韦洛尔基督医学院	Christian Medical College & Hospital (CMCH) Vellore	 印度	-
+-	大连海事大学	Dalian Maritime University	 中国	-
+-	多古斯大学	Dogus University	 土耳其	-
+-	杜姆卢珀纳尔大学	Dumlupinar University	 土耳其	-
+-	埃尔津詹大学	Erzincan University	 土耳其	-
+-	福建农林大学	Fujian Agriculture	 中国	-
+-	阿姆利泽纳那克大学	Guru Nanak Dev University	 印度	-
+-	香港教育学院	Hong Kong Institute of Education	 香港	-
+-	湖南农业大学	Hunan Agricultural University	 中国	-
+-	印度科学教育学院普纳分校	Indian Institute of Science Education & Research (IISER) - Pune	 印度	-
+-	岩手医科大学	Iwate Medical University	 日本	-
+-	岩手大学	Iwate University	 日本	-
+-	伊兹密尔理工学院	Izmir Yuksek Teknoloji Enstitusu	 土耳其	-
+-	佳米雅综合大学	Jamia Hamdard University	 印度	-
+-	江西师范大学	Jiangxi Normal University	 中国	-
+-	高加索大学（土耳其）	Kafkas University	 土耳其	-
+-	金泽医科大学	Kanazawa Medical University	 日本	-
+-	川崎医科大学	Kawasaki Medical School	 日本	-
+-	吞武里大学	King Mongkuts University of Technology Thonburi	 泰国	-
+-	杏林大学	Kyorin University	 日本	-
+-	马杜莱大学	Madurai Kamaraj University	 印度	-
+-	泰国太后大学	Mae Fah Luang University	 泰国	-
+-	长冈技术科学大学	Nagaoka University of Technology	 日本	-
+-	国立政治大学	National Chengchi University	 台湾	-
+-	御茶水女子大学	Ochanomizu University	 日本	-
+-	大阪医科大学	Osaka Medical College	 日本	-
+-	奥兹耶金大学	Ozyegin University	 土耳其	-
+-	埼玉医科大学	Saitama Medical University	 日本	-
+-	上海海事大学	Shanghai Maritime University	 中国	-
+-	上海金融学院	Shanghai University of Finance	 中国	-
+-	希瓦吉大学	Shivaji University	 印度	-
+-	新加坡管理大学	Singapore Management University	 新加坡	-
+-	苏兰拉里技术大学	Suranaree University of Technology	 泰国	-
+-	德克萨斯农机大学卡塔尔分校	Texas A&M University at Qatar	 卡塔尔	-
+-	经济技术大学	TOBB Ekonomi ve Teknoloji University	 土耳其	-
+-	马来西亚石油大学	Universiti Teknologi Petronas	 马来西亚	-
+-	印度尼西亚大学	University of Indonesia	印尼	-
+-	产业医科大学	University of Occupational & Environmental Health - Japan	 日本	-
+-	河内国立大学	Vietnam National University Hanoi	 越南	-
+-	武汉科技大学	Wuhan University of Science & Technology	 中国	-
+-	埃里温物理研究所	Yerevan Physics Institute	亚美尼亚	-

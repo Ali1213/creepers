@@ -1,6 +1,8 @@
 
 const request = require('superagent');
 const createDB = require('./addToDB');
+const util = require('util');
+const fs = require('fs');
 
 const requestHTML = function(remoteUrl){
   return new Promise((rs, rj) => {
@@ -124,6 +126,10 @@ const insertMany = function(collectionName,docs,options={}){
   });
 }
 
+const appendFile = function(filepath,data,options){
+  const append = util.promisify(fs.appendFile, fs);
+  return append(filepath,data,options)
+}
 
 module.exports = {
   sleep,
@@ -134,4 +140,5 @@ module.exports = {
   findOneAndUpdateDB,
   updateOneDB,
   insertMany,
+  appendFile,
 }

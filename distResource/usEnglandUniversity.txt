@@ -1,0 +1,75 @@
+国内排名	学校名称	学校英文名	世界排名
+1	牛津大学	University of Oxford	5
+2	剑桥大学	University of Cambridge	7
+3	帝国理工学院	Imperial College London	17
+4	伦敦大学学院	University College London	22
+5	爱丁堡大学	University of Edinburgh	30
+6	伦敦大学国王学院	King's College London	41
+7	曼彻斯特大学	University of Manchester	59
+8	布里斯托大学	University of Bristol	73
+9	伦敦大学热带医学院	London School of Hygiene & Tropical Medicine	75
+10	南安普敦大学	University of Southampton	97
+11	格拉斯哥大学	University of Glasgow	102
+12	伯明翰大学	University of Birmingham	107
+13	伦敦大学玛丽女王学院	Queen Mary, University of London	116
+14	利物浦大学	University of Liverpool	129
+15	利兹大学	University of Leeds	134
+16	诺丁汉大学	University of Nottingham	143
+16	谢菲尔德大学	University of Sheffield	143
+18	华威大学	University of Warwick	148
+19	卡迪夫大学	Cardiff University	159
+20	埃克塞特大学	University of Exeter	163
+21	杜伦大学	Durham University	173
+22	纽卡斯尔大学（英国）	Newcastle University	187
+23	萨塞克斯大学	University of Sussex	210
+24	约克大学（英国）	University of York	217
+25	莱斯特大学	University of Leicester	232
+26	阿伯丁大学	University of Aberdeen	239
+27	伦敦政治经济学院	London School of Economics and Political Science	244
+28	圣安德鲁斯大学	University of St. Andrews	246
+29	兰卡斯特大学	Lancaster University	250
+30	邓迪大学	University of Dundee	260
+31	东安格利亚大学	University of East Anglia	267
+32	贝尔法斯特女王大学	Queen's University Belfast	290
+33	伦敦大学皇家霍洛威学院	Royal Holloway, University of London (RHUL)	296
+34	雷丁大学	University of Reading	301
+35	伦敦大学圣乔治学院	St George's University of London	349
+36	巴斯大学	University of Bath	379
+37	萨里大学	University of Surrey	414
+38	布鲁内尔大学	Brunel University	418
+39	普利茅斯大学	University of Plymouth	426
+40	伦敦商学院	London Business School	462
+41	斯凯莱德大学	University of Strathclyde	487
+42	斯旺西大学	Swansea University	497
+43	赫瑞瓦特大学	Heriot Watt University	539
+44	拉夫堡大学	Loughborough University	543
+45	利物浦约翰摩尔斯大学	Liverpool John Moores University (LJMU)	570
+46	朴茨茅斯大学	University of Portsmouth	589
+47	肯特大学	University of Kent	594
+48	埃塞克斯大学	University of Essex	597
+49	开放大学	Open University	601
+50	赫特福德大学	University of Hertfordshire	607
+51	班戈大学	Bangor University	611
+52	阿伯斯威大学	Aberystwyth University	615
+53	伦敦大学伯克贝克学院	Birkbeck University London	643
+54	伦敦城市大学	City University London	651
+55	赫尔大学	University of Hull	673
+55	斯特林大学	University of Stirling	673
+57	基尔大学	Keele University	693
+58	阿斯顿大学	Aston University	696
+59	克兰菲尔德大学	Cranfield University	719
+60	伦敦大学皇家兽医学院	University of London Royal Veterinary College	756
+61	阿尔斯特大学	University of Ulster	790
+62	布莱顿大学	University of Brighton	795
+63	诺森比亚大学	Northumbria University	859
+64	曼彻斯特都会大学	Manchester Metropolitan University	885
+65	牛津布鲁克斯大学	Oxford Brookes University	910
+66	中央兰开夏大学	University of Central Lancashire	914
+67	格林威治大学	University of Greenwich	931
+68	布拉德福德大学	University of Bradford	966
+69	诺丁汉特伦特大学	Nottingham Trent University	1014
+69	西英格兰大学	University of West England	1014
+71	伦敦大学亚非学院	University of London School Oriental	1029
+72	索尔福德大学	University of Salford	1034
+73	谢菲尔德哈莱姆大学	Sheffield Hallam University	1123
+-	伯恩茅斯大学	Bournemouth University	-

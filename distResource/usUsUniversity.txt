@@ -1,0 +1,236 @@
+国内排名	学校名称	学校英文名	世界排名
+1	哈佛大学	Harvard University	1
+2	麻省理工学院	Massachusetts Institute of Technology	2
+3	斯坦福大学	Stanford University	3
+4	加州大学伯克利分校	University of California, Berkeley	4
+5	加州理工学院	California Institute of Technology	6
+6	哥伦比亚大学	Columbia University	8
+7	普林斯顿大学	Princeton University	9
+8	约翰霍普金斯大学	Johns Hopkins University	10
+8	华盛顿大学	University of Washington	10
+8	耶鲁大学	Yale University	10
+11	加州大学洛杉矶分校	University of California, Los Angeles	13
+12	芝加哥大学	University of Chicago	14
+13	加州大学旧金山分校	University of California, San Francisco	15
+14	加州大学圣地亚哥分校	University of California, San Diego	16
+15	密歇根大学安娜堡分校	University of Michigan, Ann Arbor	17
+16	宾夕法尼亚大学	University of Pennsylvania	19
+17	杜克大学	Duke University	21
+18	康奈尔大学	Cornell University	23
+19	西北大学	Northwestern University	24
+20	纽约大学	New York University	28
+20	加州大学圣塔芭芭拉分校	University of California, Santa Barbara	28
+22	威斯康辛大学麦迪逊分校	University of Wisconsin, Madison	31
+23	德克萨斯大学奥斯汀分校	University of Texas, Austin	32
+23	圣路易斯华盛顿大学	Washington University in St. Louis	32
+25	北卡罗来纳大学教堂山分校	University of North Carolina, Chapel Hill	34
+26	波士顿大学	Boston University	39
+27	明尼苏达大学双城分校	University of Minnesota, Twin Cities	42
+28	科罗拉多大学博尔德分校	University of Colorado, Boulder	44
+29	俄亥俄州立大学	Ohio State University, Columbus	46
+30	加州大学圣克鲁兹分校	University of California, Santa Cruz	47
+31	匹兹堡大学	University of Pittsburgh	48
+32	马里兰大学学院公园分校	University of Maryland, College Park	50
+33	伊利诺伊大学厄本那-香槟分校	University of Illinois, Urbana-Champaign	51
+34	洛克菲勒大学	Rockefeller University	52
+34	加州大学戴维斯分校	University of California, Davis	52
+36	南加州大学	University of Southern California	62
+37	宾州州立大学公园分校	Pennsylvania State University, University Park	66
+38	范德堡大学	Vanderbilt University	67
+39	艾茉莉大学	Emory University	71
+39	佐治亚理工学院	Georgia Institute of Technology	71
+41	加州大学尔湾分校	University of California, Irvine	75
+42	卡耐基梅隆大学	Carnegie Mellon University	77
+42	亚利桑那大学	University of Arizona	77
+44	密歇根州立大学	Michigan State University	81
+44	莱斯大学	Rice University	81
+46	布朗大学	Brown University	92
+47	佛罗里达大学	University of Florida	95
+48	罗格斯大学	Rutgers, The State University of New Jersey, New Brunswick	97
+49	普渡大学西拉法叶分校	Purdue University, West Lafayette	103
+50	弗吉尼亚大学	University of Virginia	107
+51	罗切斯特大学	University of Rochester	111
+52	西奈山伊坎医学院	Mount Sinai School of Medicine	115
+53	德州农工大学	Texas A&M University, College Station	118
+54	德克萨斯大学西南医学中心	University of Texas Southwestern Medical Center, Dallas	121
+55	贝勒医学院	Baylor College of Medicine	126
+55	马萨诸塞大学阿默斯特分校	University of Massachusetts, Amherst	126
+57	印第安纳大学伯明顿分校	Indiana University, Bloomington	129
+57	犹他大学	University of Utah	129
+59	亚利桑那州立大学	Arizona State University, Tempe	134
+60	加州大学河滨分校	University of California, Riverside	141
+61	凯斯西储大学	Case Western Reserve University	146
+62	爱荷华大学	University of Iowa	153
+63	纽约州立大学石溪分校	Stony Brook University, SUNY	156
+64	阿拉巴马大学伯明翰分校	University of Alabama, Birmingham	162
+65	俄勒冈健康科学大学	Oregon Health & Science University	171
+65	迈阿密大学	University of Miami	171
+67	塔夫斯大学	Tufts University	173
+68	圣母大学	University of Notre Dame	181
+69	佛罗里达州立大学	Florida State University	190
+70	伊利诺伊大学芝加哥分校	University of Illinois, Chicago	198
+71	辛辛那提大学	University of Cincinnati	200
+71	田纳西大学	University of Tennessee	200
+73	马里兰大学巴尔的摩分校	University of Maryland, Baltimore	203
+74	爱荷华州立大学	Iowa State University	204
+75	北卡罗来纳州立大学	North Carolina State University, Raleigh	222
+76	达特茅斯学院	Dartmouth College	224
+77	东北大学	Northeastern University	228
+78	德克萨斯大学达拉斯分校	University of Texas, Dallas	234
+79	新墨西哥大学	University of New Mexico	237
+80	俄勒冈州立大学	Oregon State University	239
+81	纽约州立大学水牛城分校	University at Buffalo, SUNY	247
+82	堪萨斯大学	University of Kansas	249
+83	科罗拉多州立大学	Colorado State University	250
+83	弗吉尼亚理工学院	Virginia Tech	250
+85	布兰迪斯大学	Brandeis University	253
+86	叶史瓦大学	Yeshiva University	257
+87	乔治华盛顿大学	George Washington University	260
+88	佐治亚大学	University of Georgia	265
+89	俄勒冈大学	University of Oregon	267
+90	内布拉斯加大学林肯分校	University of Nebraska, Lincoln	272
+91	乔治敦大学	Georgetown University	279
+92	北卡罗来纳大学格林波若分校	University of South Florida	286
+93	印第安纳普渡大学	Indiana University-Purdue University, Indianapolis	304
+93	特拉华大学	University of Delaware	304
+95	南卡罗来纳大学	University of South Carolina	310
+95	韦恩州立大学	Wayne State University	310
+97	康涅狄格大学	University of Connecticut	313
+98	肯塔基大学	University of Kentucky	324
+99	俄克拉荷马大学	University of Oklahoma	329
+100	维克森林大学	Wake Forest University	333
+101	纽约州立大学阿尔巴尼分校	University at Albany, SUNY	338
+102	贝勒大学	Baylor University	341
+102	密苏里大学	University of Missouri	341
+104	路易斯安那州立大学	Louisiana State University, Baton Rouge	344
+104	科罗拉多大学丹佛分校	University of Colorado, Denver	344
+106	华盛顿州立大学	Washington State University	356
+107	弗吉尼亚联邦大学	Virginia Commonwealth University	367
+108	夏威夷大学马诺阿分校	University of Hawaii, Manoa	370
+109	堪萨斯州立大学	Kansas State University	377
+110	休斯敦大学	University of Houston	382
+111	天普大学	Temple University	385
+112	托马斯杰斐逊大学	Thomas Jefferson University	389
+113	雪城大学	Syracuse University	390
+114	南卡罗来纳医科大学	Medical University of South Carolina	400
+115	密西西比大学	University of Mississippi	409
+116	佛罗里达国际大学	Florida International University	410
+117	拉什大学	Rush University	413
+118	德雷塞尔大学	Drexel University	414
+119	波士顿学院	Boston College	421
+120	乔治梅森大学	George Mason University	429
+121	伦斯勒理工学院	Rensselaer Polytechnic Institute	434
+122	阿拉巴马大学	University of Alabama	441
+123	马萨诸塞大学伍斯特分校	University of Massachusetts Worcester	448
+123	德克萨斯大学安东尼奥分校	University of Texas, San Antonio	448
+125	佛蒙特大学	University of Vermont	450
+126	科罗拉多矿业学院	Colorado School of Mines	453
+127	杜兰大学	Tulane University	460
+128	德克萨斯大学阿灵顿分校	University of Texas, Arlington	462
+129	佐治亚州立大学	Georgia State University	466
+129	南卫理公会大学	Southern Methodist University	466
+131	威斯康辛医学院	Medical College of Wisconsin	471
+132	德州理工大学	Texas Tech University	487
+133	威斯康辛大学密尔沃基分校	University of Wisconsin, Milwaukee	497
+134	俄克拉荷马州立大学	Oklahoma State University	505
+135	中佛罗里达大学	University of Central Florida	509
+136	新罕布什尔大学	University of New Hampshire	519
+137	圣地亚哥州立大学	San Diego State University	526
+138	马萨诸塞大学波士顿分校	University of Massachusetts, Boston	529
+139	圣路易斯大学	St. Louis University	569
+140	肯特州立大学	Kent State University	581
+141	路易维尔大学	University of Louisville	583
+142	阿拉斯加大学费尔班克斯分校	University of Alaska, Fairbanks	590
+143	威廉玛丽学院	College of William and Mary	594
+144	杨百翰大学	Brigham Young University, Provo	601
+145	怀俄明大学	University of Wyoming	604
+146	密苏里大学堪萨斯城分校	University of Missouri, Kansas City	611
+147	犹他州立大学	Utah State University	617
+148	克莱蒙森大学	Clemson University	618
+149	蒙大拿大学	University of Montana	620
+150	马里兰大学巴尔的摩郡分校	University of Maryland, Baltimore County	622
+151	北德克萨斯大学	University of North Texas	627
+152	欧道明大学	Old Dominion University	630
+153	伊利诺伊理工学院	Illinois Institute of Technology	634
+154	德克萨斯大学医学分部	University of Texas Medical Branch, Galveston	638
+154	西弗吉尼亚大学	West Virginia University	638
+156	奥古斯塔大学	Augusta University	645
+157	北伊利诺伊大学	Northern Illinois University	649
+158	北亚利桑那大学	Northern Arizona University	654
+159	芝加哥洛约拉大学	Loyola University Chicago	656
+160	里海大学	Lehigh University	661
+161	奥本大学	Auburn University	663
+162	阿肯色大学	University of Arkansas	668
+163	蒙大拿州立大学	Montana State University	673
+163	新墨西哥州立大学	New Mexico State University	673
+163	丹佛大学	University of Denver	673
+166	俄亥俄大学	Ohio University	689
+167	阿克伦大学	University of Akron	692
+168	加州大学默塞德分校	University of California, Merced	693
+169	爱达荷大学	University of Idaho	704
+170	内华达大学雷诺分校	University of Nevada, Reno	713
+171	密歇根理工大学	Michigan Technological University	714
+171	罗德岛大学	University of Rhode Island	714
+173	纽约州立大学宾汉姆顿分校	Binghamton University, SUNY	725
+174	纽约市立学院	CUNY, City College	726
+175	密西西比州立大学	Mississippi State University	734
+176	内华达大学拉斯维加斯分校	University of Nevada, Las Vegas	748
+177	霍华德大学	Howard University	750
+178	密苏里科技大学	Missouri University of Science & Technology	777
+179	路易斯安那大学拉法叶分校	University of Louisiana, Lafayette	781
+179	北卡罗来纳大学夏洛特分校	University of North Carolina, Charlotte	781
+181	罗切斯特理工学院	Rochester Institute of Technology	803
+182	迈阿密大学（俄亥俄）	Miami University, Oxford	807
+183	克雷顿大学	Creighton University	810
+184	新泽西理工学院	New Jersey Institute of Technology	813
+185	纽约医学院	New York Medical College	818
+185	波特兰州立大学	Portland State University	818
+187	托莱多大学	University of Toledo	826
+188	旧金山州立大学	San Francisco State University	845
+189	孟菲斯大学	University of Memphis	857
+190	阿肯色大学医学中心	University of Arkansas Medical Sciences	859
+191	南伊利诺伊大学卡本代尔分校	Southern Illinois University, Carbondale	873
+192	纽约市立大学亨特学院	CUNY, Hunter College	880
+192	密苏里大学圣路易斯分校	University of Missouri, St. Louis	880
+194	北达科他州立大学	North Dakota State University	896
+195	德克萨斯大学埃尔帕索分校	University of Texas El Paso	907
+196	佛罗里达大西洋大学	Florida Atlantic University	910
+197	美利坚大学	American University	927
+198	北卡罗来纳大学格林波若分校	University of North Carolina, Greensboro	931
+199	统一健康科学大学	Uniformed Services University of the Health Sciences	943
+199	俄克拉何马大学健康科学中心	University of Oklahoma Health Sciences Center	943
+201	北达科他大学	University of North Dakota	950
+202	维拉诺瓦大学	Villanova University	956
+203	罗马琳达大学	Loma Linda University	964
+204	马萨诸塞大学洛厄尔分校	University of Massachusetts, Lowell	1003
+205	东卡罗来纳大学	East Carolina University	1010
+205	福坦莫大学	Fordham University	1010
+207	奥克兰大学（美国）	Oakland University	1014
+208	美国天主大学	The Catholic University of America	1025
+209	霍夫斯特拉大学	Hofstra University	1049
+210	西密歇根大学	Western Michigan University	1059
+211	马凯特大学	Marquette University	1065
+212	博林格林州立大学	Bowling Green State University	1070
+213	南达科他州立大学	South Dakota State University	1086
+214	伊利诺伊州立大学	Illinois State University	1102
+215	怀特州立大学	Wright State University Dayton	1109
+216	德州农工大学健康科学中心	Texas A&M Health Science Center	1142
+217	南密西西比大学	University of Southern Mississippi	1155
+218	波多黎各大学医学部	University of Puerto Rico, Medical Sciences Campus	1185
+219	德保罗大学	DePaul University	1188
+220	路易斯安那州立大学健康科学中心	Louisiana State University Health Sciences Center New Orleans	1227
+221	德克萨斯州立大学	Texas State University San Marcos	1233
+-	阿尔巴尼医学院	Albany Medical College	-
+-	加州州立大学弗雷斯诺分校	California State University, Fresno	-
+-	克拉克森大学	Clarkson University	-
+-	费尔菲尔德大学	Fairfield University	-
+-	佛罗里达理工学院	Florida Institute of Technology	-
+-	印第安纳大学凯利商学院	IU Kelley School of Business	-
+-	路易斯安那理工大学	Louisiana Tech University	-
+-	诺瓦东南大学	Nova Southeastern University	-
+-	纽约州立环境科学与森林学院	SUNY College of Environmental Science	-
+-	阿拉巴马大学亨茨维尔分校	University of Alabama, Huntsville	-
+-	波多黎各大学马亚圭斯分校	University of Puerto Rico, Mayaguez	-
+-	犹他谷大学	Utah Valley University	-
+-	弗吉尼亚海洋科学学院	Virginia Institute of Marine Science	-
+-	伍斯特理工学院	Worcester Polytechnic Institute	-

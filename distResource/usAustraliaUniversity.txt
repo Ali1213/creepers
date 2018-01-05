@@ -1,0 +1,35 @@
+国内排名	学校名称	学校英文名	世界排名
+1	墨尔本大学	University of Melbourne	26
+2	悉尼大学	University of Sydney	34
+3	昆士兰大学	University of Queensland Australia	45
+4	莫纳什大学	Monash University	68
+5	澳洲国立大学	Australian National University	69
+5	新南威尔士大学	University of New South Wales	69
+7	西澳大学	University of Western Australia	88
+8	阿德雷德大学	University of Adelaide	122
+9	麦考瑞大学	Macquarie University	234
+10	詹姆斯库克大学	James Cook University	253
+11	悉尼科技大学	University of Technology Sydney	260
+12	科廷大学	Curtin University of Technology	264
+13	格里菲斯大学	Griffith University	265
+14	迪肯大学	Deakin University	267
+15	昆士兰科技大学	Queensland University of Technology	274
+16	纽卡斯尔大学（澳洲）	University of Newcastle	290
+16	卧龙岗大学	University of Wollongong	290
+18	塔斯马尼亚大学	University of Tasmania	316
+19	西悉尼大学	University of Western Sydney	363
+20	南澳大学	University of South Australia	400
+21	佛林德斯大学	Flinders University	422
+21	斯威本科技大学	Swinburne University of Technology	422
+23	皇家墨尔本理工大学	RMIT University	426
+24	拉筹伯大学	La Trobe University	471
+25	默多克大学	Murdoch University	607
+26	维多利亚大学（澳洲）	Victoria University	643
+27	新英格兰大学	University of New England	686
+28	埃迪斯科文大学	Edith Cowan University	689
+29	查尔斯达尔文大学	Charles Darwin University	768
+30	堪培拉大学	University of Canberra	813
+31	澳洲天主大学	Australian Catholic University	832
+32	查理斯特大学	Charles Sturt University	867
+33	南十字星大学	Southern Cross University	894
+-	邦德大学	Bond University	-

@@ -1,0 +1,147 @@
+国内排名	学校名称	学校英文名	世界排名
+1	清华大学	Tsinghua University	64
+2	北京大学	Peking University	65
+3	中国科学技术大学	University of Science and Technology of China	145
+4	复旦大学	Fudan University	 148   
+5	上海交通大学	Shanghai Jiao Tong University	 156   
+6	浙江大学	Zhejiang University	 159   
+7	南京大学	Nanjing University	 190   
+8	中山大学	Sun Yat-sen University	 237   
+9	华中科技大学	Huazhong University of Science and Technology	 282   
+10	哈尔滨工业大学	Harbin Institute of Technology	 304   
+11	武汉大学	Wuhan University	 321   
+12	北京师范大学	Beijing Normal University	 324   
+13	同济大学	Tongji University	327
+14	南开大学	Nankai University	 333   
+15	厦门大学	Xiamen University	 344   
+16	西安交通大学	Xi'an Jiaotong University	 380   
+17	东南大学	Southeast University	 382   
+18	中国地质大学	China University of Geosciences	 397   
+19	山东大学	Shandong University	 400   
+19	华南理工大学	South China University of Technology	 400   
+21	大连理工大学	Dalian University of Technology	 429   
+22	中南大学	Central South University	 445   
+23	北京航空航天大学	Beihang University	 453   
+23	吉林大学	Jilin University	 453   
+25	天津大学	Tianjin University	 466   
+26	中国农业大学	China Agricultural University	 479   
+26	苏州大学	Soochow University	 479   
+28	北京理工大学	Beijing Institute of Technology	 491   
+29	华东师范大学	East China Normal University	 511   
+30	华中师范大学	Central China Normal University	 513   
+31	四川大学	Sichuan University	 519   
+32	兰州大学	Lanzhou University	 535   
+33	上海大学	Shanghai University	551
+34	华东理工大学	East China University of Science and Technology	 553   
+35	湖南大学	Hunan University	 586   
+36	电子科技大学	University of Electronic Science and Technology of China	 597   
+37	中国人民大学	Renmin University of China	 611   
+38	北京交通大学	Beijing Jiaotong University	 645   
+39	重庆大学	Chongqing University	655
+40	东华大学	Donghua University	 663   
+40	北京科技大学	University of Science & Technology Beijing	 663   
+42	南京农业大学	Nanjing Agricultural University	 673   
+43	北京化工大学	Beijing University of Chemical Technology	 704   
+44	中国海洋大学	Ocean University of China	 721   
+45	西南大学（中国）	Southwest University - China	724
+46	东北大学（中国）	Northeastern University - China	 731   
+47	首都医科大学	Capital Medical University	 735   
+47	福州大学	Fuzhou University	 735   
+47	华中农业大学	Huazhong Agricultural University	 735   
+50	南京航空航天大学	Nanjing University of Aeronautics and Astronautics	 748   
+51	西北大学（中国）	Northwest University,  Xi'an	 750   
+52	西北工业大学	Northwestern Polytechnical University	 753   
+53	江南大学	Jiangnan University	 777   
+54	合肥工业大学	Hefei University of Technology	 790   
+55	南京理工大学	Nanjing University of Science & Technology	 795   
+56	西北农林科技大学	Northwest A&F University - China	 803   
+57	中国石油大学	China University of Petroleum	 807   
+58	第四军医大学	Fourth Military Medical University	 818   
+58	南京师范大学	Nanjing Normal University	 818   
+60	国防科技大学	National University of Defence Technology - China	 842   
+61	华北电力大学	North China Electric Power University	844
+62	郑州大学	Zhengzhou University	 845   
+63	北京邮电大学	Beijing University of Posts	 849   
+64	南京医科大学	Nanjing Medical University	 855   
+65	哈尔滨工程大学	Harbin Engineering University	 864   
+65	深圳大学	Shenzhen University	 864   
+67	武汉理工大学	Wuhan University of Technology	 873   
+68	河海大学	Hohai University	 885   
+69	北京林业大学	Beijing Forestry University	 889   
+70	北京工业大学	Beijing University of Technology	 891   
+70	西安电子科技大学	Xidian University	 891   
+72	东北师范大学	Northeast Normal University - China	 917   
+73	中国矿业大学	China University of Mining	 919   
+73	上海师范大学	Shanghai Normal University	 919   
+75	南京工业大学	Nanjing University of Technology	 927   
+76	江苏大学	Jiangsu University	 934   
+76	西南交通大学	Southwest Jiaotong University	 934   
+78	暨南大学	Jinan University	 936   
+79	第三军医大学	Third Military Medical University	 943   
+80	华南师范大学	South China Normal University	 948   
+81	山西大学	Shanxi University	 973   
+82	南昌大学	Nanchang University	 977   
+83	中国医科大学	China Medical University	 980   
+84	天津医科大学	Tianjin Medical University	 985   
+85	华南农业大学	South China Agricultural University	 990   
+86	南京信息工程大学	Nanjing University of Information Science & Technology	 996   
+87	湘潭大学	Xiangtan University	 1003   
+87	浙江工业大学	Zhejiang University of Technology	 1003   
+89	中国药科大学	China Pharmaceutical University	 1010   
+90	第二军医大学	Second Military Medical University	 1014   
+91	青岛大学	Qingdao University	 1019   
+92	上海海洋大学	Shanghai Ocean University	 1037   
+93	浙江师范大学	Zhejiang Normal University	 1044   
+94	汕头大学	Shantou University	 1055   
+95	上海理工大学	University of Shanghai for Science	 1070   
+95	云南大学	Yunnan University	 1070   
+97	陕西师范大学	Shaanxi Normal University	 1078   
+98	哈尔滨医科大学	Harbin Medical University	 1097   
+99	杭州师范大学	Hangzhou Normal University	 1100   
+100	南京邮电大学	Nanjing University of Posts & Telecommunications	 1111   
+101	东北林业大学	Northeast Forestry University - China	 1117   
+102	重庆医科大学	Chongqing Medical University	 1119   
+103	浙江理工大学	Zhejiang Sci-Tech University	 1125   
+104	首都师范大学	Capital Normal University	1128
+105	安徽大学	Anhui University	1143
+106	青岛科技大学	Qingdao University of Science & Technology	 1149   
+107	广西大学	Guangxi University	 1162   
+108	太原理工大学	Taiyuan University of Technology	 1176   
+109	济南大学	University of Jinan	 1178   
+109	扬州大学	Yangzhou University	 1178   
+111	杭州电子科技大学	Hangzhou Dianzi University	 1181   
+111	沈阳药科大学	Shenyang Pharmaceutical University	 1181   
+111	南方医科大学	Southern Medical University - China	 1181   
+114	天津工业大学	Tianjin Polytechnic University	 1188   
+115	燕山大学	Yanshan University	 1190   
+116	温州医科大学	Wenzhou Medical University	 1196   
+117	山东农业大学	Shandong Agricultural University	 1201   
+118	安徽医科大学	Anhui Medical University	1206
+119	广东工业大学	Guangdong University of Technology	 1207   
+119	河南师范大学	Henan Normal University	 1207   
+121	宁波大学	Ningbo University	 1209   
+122	四川农业大学	Sichuan Agricultural University	 1213   
+123	江苏师范大学	Jiangsu Normal University	1220
+124	大连医科大学	Dalian Medical University	 1221   
+124	新疆大学	Xinjiang University	 1221   
+126	天津科技大学	Tianjin University Science & Technology	1223
+127	黑龙江大学	Heilongjiang University	 1227   
+128	上海中医药大学	Shanghai University of Traditional Chinese Medicine	 1231   
+129	山东师范大学	Shandong Normal University	 1240   
+129	温州大学	Wenzhou University	 1240   
+131	昆明理工大学	Kunming University of Science and Technology	1243
+132	贵州大学	Guizhou University	1244
+133	中国计量学院	China Jiliang University	 1247   
+133	广州医科大学	Guangzhou Medical University	 1247   
+135	湖北大学	Hubei University	 1249   
+135	南京中医药大学	Nanjing University of Chinese Medicine	 1249   
+-	安徽师范大学	Anhui Normal University	-
+-	安徽工业大学	Anhui University of Technology	-
+-	常州大学	Changzhou University	-
+-	大连海事大学	Dalian Maritime University	-
+-	福建农林大学	Fujian Agriculture	-
+-	湖南农业大学	Hunan Agricultural University	-
+-	江西师范大学	Jiangxi Normal University	-
+-	上海海事大学	Shanghai Maritime University	-
+-	上海金融学院	Shanghai University of Finance	-
+-	武汉科技大学	Wuhan University of Science & Technology	-

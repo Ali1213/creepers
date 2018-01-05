@@ -1,0 +1,63 @@
+国内排名	学校名称	学校英文名	世界排名
+1	慕尼黑大学	University of Munich	40
+2	海德堡大学	Heidelberg University	59
+3	慕尼黑工业大学	Technical University of Munich	80
+4	柏林洪堡大学	Humboldt-Universität zu Berlin	87
+5	波恩大学	University of Bonn	104
+6	柏林自由大学	Freie Universität Berlin	112
+7	汉堡大学	University of Hamburg	134
+8	哥廷根大学	University of Göttingen	142
+9	弗莱堡大学	University of Freiburg	148
+10	蒂宾根大学	Eberhard Karls University, Tübingen	155
+11	柏林查理特医科大学	Charite - Medical University of Berlin	167
+11	卡尔斯鲁厄理工学院	Karlsruhe Institute of Technology	167
+11	亚琛工业大学	RWTH Aachen University	167
+14	法兰克福大学	Johann Wolfgang Goethe University Frankfurt am Main	176
+15	德累斯顿工业大学	Technical University of Dresden	183
+16	明斯特大学	University of Münster	196
+17	美因茨大学	Johannes Gutenberg University of Mainz	204
+18	维尔茨堡大学	University of Würzburg	213
+19	埃尔朗根-纽伦堡大学	University of Erlangen Nuremberg	217
+20	科隆大学	University of Cologne	243
+21	基尔大学（德国）	University of Kiel	257
+22	乌尔姆大学	University of Ulm	285
+23	杜伊斯堡-埃森大学	University of Duisburg-Essen	289
+24	柏林工业大学	Technical University of Berlin	296
+25	杜塞尔多夫大学	Heinrich Heine University of Dusseldorf	329
+26	耶拿大学	Friedrich Schiller University of Jena	344
+27	波鸿大学	Ruhr University Bochum	349
+28	莱比锡大学	University of Leipzig	354
+29	汉诺威医学院	Hannover Medical School	359
+30	吉森大学	University of Giessen	366
+31	多特蒙德工业大学	Dortmund University of Technology	410
+32	马尔堡大学	Philipps University of Marburg	418
+32	雷根斯堡大学	University of Regensburg	418
+34	达姆施塔特工业大学	Darmstadt University of Technology	422
+35	波茨坦大学	University of Potsdam	429
+36	斯图加特大学	University of Stuttgart	441
+37	萨尔大学	Saarland University	443
+38	不来梅大学	University of Bremen	477
+39	康斯坦茨大学	University of Konstanz	479
+40	比勒费尔德大学	Bielefeld University	529
+41	拜罗伊特大学	University of Bayreuth	555
+42	汉诺威大学	University of Hannover	562
+43	罗斯托克大学	University of Rostock	565
+44	曼海姆大学	University of Mannheim	576
+45	哈勒-维滕贝格大学	Martin Luther University of Halle-Wittenberg	597
+46	霍恩海姆大学	University Hohenheim	627
+47	格赖夫斯瓦尔德大学	Ernst Moritz Arndt Universitat Greifswald	630
+48	吕贝克大学	University of Lubeck	649
+49	布伦瑞克工业大学	Braunschweig University of Technology	651
+50	马格德堡大学	Otto von Guericke University	681
+51	奥登堡大学	Carl von Ossietzky Universitat Oldenburg	704
+52	不来梅雅各布大学	Jacobs University	740
+53	凯泽斯劳滕工业大学	University of Kaiserslautern	772
+54	奥格斯堡大学	University of Augsburg	859
+55	卡塞尔大学	Universitat Kassel	901
+56	开姆尼茨工业大学	Technische Universitat Chemnitz	903
+57	弗莱贝格工业大学	Technical University Freiberg	1042
+58	维藤-黑尔德克私立大学	Witten Herdecke University	1209
+-	勃兰登堡工业大学	Brandenburg University of Technology Cottbus	-
+-	汉堡工业大学	Hamburg University of Technology	-
+-	伊尔默瑙工业大学	Technische Universitat Ilmenau	-
+-	克劳斯塔尔工业大学	TU Clausthal	-
