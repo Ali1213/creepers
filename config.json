@@ -46,15 +46,24 @@
     "subject-rankings-url":"https://www.topuniversities.com/subject-rankings/2017",
     "rank-txt":"https://www.topuniversities.com/sites/default/files/qs-rankings-data/357051.txt?_=1514528892865",
     "major-url":"https://www.topuniversities.com/university-rankings/university-subject-rankings/2017/",
-    "collectionname":"ResumeQSUniversityRank",
-    "majorCollectionname":"ResumeQSMajorRank"
+    "collectionname":"ResumeQSUniversityRanks",
+    "majorCollectionname":"ResumeQSMajorRanks"
   },
   "USNEWSranks":{
     "universityRanksUrl": "https://www.usnews.com/best-colleges/rankings/national-universities",
     "majorRanksUrl": "https://www.usnews.com/education/best-global-universities/rankings",
     "ranksUrlEx":"https://www.usnews.com/best-colleges/rankings/national-universities?_page=1&format=json",
     "majorRanksUrlEx": "https://www.usnews.com/education/best-global-universities/arts-and-humanities?_page=1&format=json",
-    "collectionname":"ResumeUSNEWSUniversityRank",
-    "majorcollectionname":"ResumeUSNEWSMajorRank"
+    "collectionname":"ResumeUSNEWSUniversityRanks",
+    "majorcollectionname":"ResumeUSNEWSMajorRanks"
+  },
+  "import500Company":{
+    "collectionname":"ResumeCompanyRanks"
+  },
+  "chinaMajorRank":{
+    "collectionname":"ResumeMajorRanks"
+  },
+  "forbesCompany":{
+    "url":"http://www.forbeschina.com/list/companies/2017/page/1"
   }
 }

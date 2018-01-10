@@ -82,8 +82,9 @@ const universityDataHandle = function (university, addition) {
     recordStr += university.title +'\r\n';
   }
   return {
-    name: university.title,
+    // name: university.title,
     chineseName: universityDict[university.title] || "",
+    englishName: university.title,
     score: university.score,
     rank: university.rank_display,
     country: university.country,
@@ -140,14 +141,16 @@ const majorDataHandle = function (university, addition) {
     recordStr += university.title +'\r\n';
   }
   return {
-    name: university.title,
-    chineseName: universityDict[university.title] || "",
-    major: addition.major,
+    // name: addition.major,
+    chineseName: "",
+    englishName: addition.major,
     score: university.score,
     rank: university.rank_display,
     country: university.country,
     continent: university.region,
     rankYear: addition.rankYear,
+    universityName: university.title,
+    universityNameCN: universityDict[university.title] || "",
   }
 }
 

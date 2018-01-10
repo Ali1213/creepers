@@ -92,7 +92,9 @@ const convertTextToWriteToDB = async function(){
     return {
       class: words[0],
       catergory: words[1],
-      title: words[2],
+      // title: words[2],
+      chineseName:words[2],
+      englishName:'',
     }
   });
   return data;

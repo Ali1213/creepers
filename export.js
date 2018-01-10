@@ -77,7 +77,7 @@ const insertMany = function(collectionName,docs,options={}){
         if(err){
           console.log('insertError',err);
           // console.log(college);
-          return rs(err);
+          return rj(err);
         }
         // console.log("insertDB")
         rs(result)
@@ -86,6 +86,21 @@ const insertMany = function(collectionName,docs,options={}){
   });
 }
 
+const dropCollection = function(collectionName){
+  return createDB(dbConfig.outputDB).then(db=>{
+    return new Promise( (rs,rj) => {
+      db.collection(collectionName).drop((err,result)=>{
+        if(err){
+          // console.log('insertError',err);
+          // console.log(college);
+          return rj(err);
+        }
+        // console.log("insertDB")
+        rs(result)
+      })
+    });
+  });
+}
 
 const transform = async function(collection){
   let results = await find(collection)
@@ -97,8 +112,10 @@ const transform = async function(collection){
   await insertMany(collection,results);
 }
 
-const all = async function(collections){
+const all = async function(collections,append = false){
   let clts;
+
+
   if(typeof collections === 'string'){
     clts = [collections];
   }else if(Array.isArray(collections)){
@@ -108,10 +125,20 @@ const all = async function(collections){
   }
 
   for(let collection of clts){
+
+    if(append){
+      await dropCollection(collection);
+    }
     await transform(collection);
   }
   console.log('done');
   // process.exit(0);
 }
 
-all(["ResumeCredentials"]).catch(e=>console.log(e));
+// all(["ResumeQSMajorRanks","ResumeUSNEWSMajorRanks"]).catch(e=>console.log(e));
+// all(["ResumeColleges"]).catch(e=>console.log(e));
+// all(["ResumeColleges","ResumeMajors","ResumeCompanies","ResumeCredentials","ResumeJobTitles","ResumeQSUniversityRanks","ResumeQSMajorRanks","ResumeUSNEWSUniversityRanks"],true).catch(e=>console.log(e));
+// all(["ResumeMajorRanks"]).catch(e=>console.log(e));
+
+// all(["ResumeUSNEWSMajorRanks"],true).catch(e=>console.log(e));
+all(["ResumeCompanyRanks"]).catch(e=>console.log(e));

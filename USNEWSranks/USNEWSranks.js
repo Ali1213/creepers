@@ -93,7 +93,9 @@ const handleUniversitysData = function (universities) {
       recordStr += u.displayName + '\r\n';
     }
     return {
-      name: u.displayName,
+      // name: u.displayName,
+      chineseName: '',
+      englishName: u.displayName,
       chineseName: universityDict[u.displayName]|| '',
       alias: u.aliasNames || '',
       city: u.city,
@@ -198,13 +200,15 @@ const handleMajorsData = function (universities,rankType) {
       recordStr += item.name + '\r\n';
     }
     return {
-      name: item.name,
-      chineseName: universityDict[item.name]||'',
+      // name: rankType,
+      chineseName: '',
+      englishName: rankType,
       country:item.country_name,
       rank: item.rank + '',
       score: item.score + '',
       city: item.city,
-      rankType: rankType,
+      universityName: item.name,
+      universityNameCN: universityDict[item.name]||'',
     };
   }).filter(item => item);
 }

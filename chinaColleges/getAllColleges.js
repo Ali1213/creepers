@@ -172,7 +172,9 @@ const getCollegeData = async function (collegeUrl) {
 //转换每一个数据结构
 const eachDataConvert = function (obj) {
   let newObj = {
-    name: obj.schoolname,
+    // name: obj.schoolname,
+    chineseName : obj.schoolname,
+    englishName: '',
     oldName: obj.oldname,
     domain: obj.guanwang,
     description: obj.jianjie,
@@ -186,8 +188,8 @@ const eachDataConvert = function (obj) {
     categoryRank: obj.rankingCollegetype,
     tags: [],
     majors: [],
-    collegeId: obj.schoolid,
-    code: obj.schoolcode,
+    // collegeId: obj.schoolid,
+    // code: obj.schoolcode,
   }
 
   if (obj['f985'] === '1') {

@@ -51,7 +51,9 @@ const getAllUrl = async function (url) {
 
 const majorsDataHandle = function (data) {
   return {
-    name: data.specialname.trim(),
+    // name: data.specialname.trim(),
+    chineseName:data.specialname.trim(),
+    englishName:'',
     code: data.code,
     category: data.zytype,
     level: data.zycengci,

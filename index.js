@@ -9,6 +9,8 @@ const {qsUniversityRank, qsMajorRank} = require('./QSranks/QSranks.js');
 
 const {getUniversityRanks, getMajorRanks} = require('./USNEWSranks/USNEWSranks.js');
 
+const chinaMajorRank = require('./chinaMajorRank/chinaMajorRank');
+
 //爬取所有中国学校
 // getAllColleges().catch(e=>console.log(e));
 
@@ -33,3 +35,6 @@ const {getUniversityRanks, getMajorRanks} = require('./USNEWSranks/USNEWSranks.j
 // getUniversityRanks().catch(e=>console.log(e));
 // getMajorRanks().catch(e=>console.log(e));
 
+
+// 爬取中国大学专业排名
+// chinaMajorRank().catch(e=>console.log(e));

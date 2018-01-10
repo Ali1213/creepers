@@ -69,10 +69,26 @@ const findOneDB = function(collectionName,condition,options={}){
         if(err){
           // console.log('insertError',err);
           // console.log(college);
-          return rs(err);
+          return rj(err);
         }
         // console.log("insertDB")
         rs(result)
+      })
+    });
+  });
+}
+
+const findDB = function(collectionName,condition,options={}){
+  return createDB().then(db=>{
+    return new Promise( rs => {
+      db.collection(collectionName).find(condition,options).toArray((err,results)=>{
+        if(err){
+          // console.log('insertError',err);
+          // console.log(college);
+          return rj(err);
+        }
+        // console.log("insertDB")
+        rs(results)
       })
     });
   });
@@ -85,7 +101,7 @@ const findOneAndUpdateDB = function(collectionName,filter,update,options={}){
         if(err){
           // console.log('insertError',err);
           // console.log(college);
-          return rs(err);
+          return rj(err);
         }
         // console.log("insertDB")
         rs(result)
@@ -101,7 +117,7 @@ const updateOneDB = function(collectionName,filter,update,options={}){
         if(err){
           // console.log('insertError',err);
           // console.log(college);
-          return rs(err);
+          return rj(err);
         }
         // console.log("insertDB")
         rs(result)
@@ -117,7 +133,23 @@ const insertMany = function(collectionName,docs,options={}){
         if(err){
           // console.log('insertError',err);
           // console.log(college);
-          return rs(err);
+          return rj(err);
+        }
+        // console.log("insertDB")
+        rs(result)
+      })
+    });
+  });
+}
+
+const dropCollection = function(collectionName){
+  return createDB().then(db=>{
+    return new Promise( rs => {
+      db.collection(collectionName).drop((err,result)=>{
+        if(err){
+          // console.log('insertError',err);
+          // console.log(college);
+          return rj(err);
         }
         // console.log("insertDB")
         rs(result)
@@ -136,9 +168,11 @@ module.exports = {
   requestHTML,
   insertToDB,
   hasInDB,
+  findDB,
   findOneDB,
   findOneAndUpdateDB,
   updateOneDB,
   insertMany,
   appendFile,
+  dropCollection,
 }

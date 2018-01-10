@@ -73,7 +73,9 @@ const parseOtherPage = function (pageHTML, baseUrl) {
       let name = $m.eq(0).text().trim();
       let ct = $m.eq(1).text().trim().split('|');
       companies.push({
-        name,
+        // name,
+        chineseName: name,
+        englishName: '',
         scale: ct[2].trim(),
         region: ct[1].trim(),
         industry: ct[0].trim(),
