@@ -14,10 +14,13 @@
     "got": "^8.0.1",
     "mongodb": "^3.0.0-rc0",
     "mongoose": "^4.13.7",
+    "node-baidu-translate": "^0.1.0",
+    "node-google-translate-skidz": "^1.1.1",
     "node-xlsx": "^0.11.2",
     "ssl-root-cas": "^1.2.4",
     "superagent": "^3.8.2",
     "superagent-jsonp": "^0.2.0",
-    "tiny-jsonp": "^1.0.4"
+    "tiny-jsonp": "^1.0.4",
+    "translation.js": "^0.6.8"
   }
 }

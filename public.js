@@ -68,7 +68,7 @@ const hasInDB = function(collectionName,condition){
 
 const findOneDB = function(collectionName,condition,options={}){
   return createDB().then(db=>{
-    return new Promise( rs => {
+    return new Promise( (rs,rj) => {
       db.collection(collectionName).findOne(condition,options,(err,result)=>{
         if(err){
           // console.log('insertError',err);
@@ -84,7 +84,7 @@ const findOneDB = function(collectionName,condition,options={}){
 
 const findDB = function(collectionName,condition,options={}){
   return createDB().then(db=>{
-    return new Promise( rs => {
+    return new Promise( (rs,rj) => {
       db.collection(collectionName).find(condition,options).toArray((err,results)=>{
         if(err){
           // console.log('insertError',err);
@@ -100,7 +100,7 @@ const findDB = function(collectionName,condition,options={}){
 
 const findOneAndUpdateDB = function(collectionName,filter,update,options={}){
   return createDB().then(db=>{
-    return new Promise( rs => {
+    return new Promise( (rs,rj) => {
       db.collection(collectionName).findOneAndUpdate(filter,update,options,(err,result)=>{
         if(err){
           // console.log('insertError',err);
@@ -116,7 +116,7 @@ const findOneAndUpdateDB = function(collectionName,filter,update,options={}){
 
 const updateOneDB = function(collectionName,filter,update,options={}){
   return createDB().then(db=>{
-    return new Promise( rs => {
+    return new Promise( (rs,rj) => {
       db.collection(collectionName).updateOne(filter,update,options,(err,result)=>{
         if(err){
           // console.log('insertError',err);
@@ -132,7 +132,7 @@ const updateOneDB = function(collectionName,filter,update,options={}){
 
 const insertMany = function(collectionName,docs,options={}){
   return createDB().then(db=>{
-    return new Promise( rs => {
+    return new Promise( (rs,rj) => {
       db.collection(collectionName).insertMany(docs,options,(err,result)=>{
         if(err){
           // console.log('insertError',err);
@@ -148,7 +148,7 @@ const insertMany = function(collectionName,docs,options={}){
 
 const dropCollection = function(collectionName){
   return createDB().then(db=>{
-    return new Promise( rs => {
+    return new Promise( (rs,rj) => {
       db.collection(collectionName).drop((err,result)=>{
         if(err){
           // console.log('insertError',err);
@@ -167,6 +167,24 @@ const appendFile = function(filepath,data,options){
   return append(filepath,data,options)
 }
 
+
+
+// const updateOneDB = function(collectionName,condition,update,options={}){
+//   return createDB().then(db=>{
+//     return new Promise( (rs,rj) => {
+//       db.collection(collectionName).find(condition,update,options,(err,results)=>{
+//         if(err){
+//           // console.log('insertError',err);
+//           // console.log(college);
+//           return rj(err);
+//         }
+//         // console.log("insertDB")
+//         rs(results)
+//       })
+//     });
+//   });
+// }
+
 module.exports = {
   sleep,
   requestHTML,
@@ -179,4 +197,5 @@ module.exports = {
   insertMany,
   appendFile,
   dropCollection,
+  // updateOneDB,
 }
