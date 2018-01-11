@@ -41,7 +41,7 @@ const parseData = function(sheet,rankType){
   for( let row of sheet ){
     let company = {
       rank:(row[rankIndex]+'').trim(),
-      rankType,
+      tag:rankType,
     };
     if(hasEnglishName){
       let info = (row[nameIndex]+'').trim().match(enMatchRe);

@@ -90,6 +90,7 @@ const universityDataHandle = function (university, addition) {
     country: university.country,
     continent: university.region,
     rankYear: addition.rankYear,
+    tag:'QS世界大学排名',
   }
 }
 

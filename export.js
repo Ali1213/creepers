@@ -141,4 +141,5 @@ const all = async function(collections,append = false){
 // all(["ResumeMajorRanks"]).catch(e=>console.log(e));
 
 // all(["ResumeUSNEWSMajorRanks"],true).catch(e=>console.log(e));
-all(["ResumeCompanyRanks"]).catch(e=>console.log(e));
+// all(["ResumeCompanyRanks"]).catch(e=>console.log(e));
+// all(["ResumeQSUniversityRanks",'ResumeMajorRanks','ResumeCompanyRanks','ResumeUSNEWSUniversityRanks'],true).catch(e=>console.log(e));

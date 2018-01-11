@@ -183,3 +183,58 @@ const USNEWSMajorRanksHandle = function(data){
 //   collectionName:"ResumeUSNEWSMajorRanks",
 //   middleHandle:USNEWSMajorRanksHandle
 // }).catch(e=>console.log(e));
+
+
+//下面是调整rankType -> tag 字段或者 增加tag字段
+
+const tagsAdd = function(tagName){
+
+  return function(data){
+    return {
+      ...data,
+      tag:tagName
+    }
+  }
+}
+
+// adjust({
+//   collectionName:"ResumeQSUniversityRanks",
+//   middleHandle:tagsAdd('QS世界大学排名')
+// }).catch(e=>console.log(e));
+
+
+// adjust({
+//   collectionName:"ResumeMajorRanks",
+//   middleHandle:tagsAdd('全国高校学科评估')
+// }).catch(e=>console.log(e));
+
+const ResumeCompanyRanksConvertRankType2Tag = function(data){
+  return {
+    rank:data.rank,
+    tag: data.rankType,
+    chineseName:data.chineseName,
+    englishName:data.englishName
+  }
+}
+
+// adjust({
+//   collectionName:"ResumeCompanyRanks",
+//   middleHandle:ResumeCompanyRanksConvertRankType2Tag
+// }).catch(e=>console.log(e));
+
+const ResumeUSNEWSUniversityRanksConvertRankType2Tag = function(data){
+  let tag = data.rankType;
+  let description = data.description;
+  delete data.rankType;
+  delete data.description;
+  return {
+    ...data,
+    tag,
+    description
+  }
+}
+
+// adjust({
+//   collectionName:"ResumeUSNEWSUniversityRanks",
+//   middleHandle:ResumeUSNEWSUniversityRanksConvertRankType2Tag
+// }).catch(e=>console.log(e));

@@ -28,7 +28,8 @@ const run = async function({
           universityCode: item.code,
           universityName: item.name
         }
-      })
+      }),
+      tag:'全国高校学科评估',
     };
   });
 

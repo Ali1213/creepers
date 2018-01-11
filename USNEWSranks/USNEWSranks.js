@@ -102,7 +102,7 @@ const handleUniversitysData = function (universities) {
       controlBy: u.institutionalControl,
       score: u.rankingDisplayScore || '',
       rank: u.rankingSortRank +'',
-      rankType: u.rankingDisplayName,
+      tag: u.rankingDisplayName,
       description: item.blurb,
     };
   }).filter(item => item);
